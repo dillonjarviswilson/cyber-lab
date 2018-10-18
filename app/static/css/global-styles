@@ -1,0 +1,875 @@
+@media screen and (min-device-width: 500px) {
+
+
+  .page{
+    width: 100%;
+    min-width: 375px;
+  }
+
+  .appContainer {
+      width: 100%;
+      height: 100%;
+      margin-top: 0;
+      background: rgb(212, 212, 212);
+      overflow: hidden;
+      border: none;
+      margin: 0 auto;
+  }
+
+  body.appPage {
+      margin: 0px;
+      width: 100%;
+      height: 100%;
+      font-family: 'Dosis', sans-serif;
+      font-weight: bolder;
+      color: white;
+      display: -webkit-box;
+  }
+
+
+  form#markComplete {
+      display: none;
+  }
+
+
+  .appHead {
+      width: 100%;
+      height: 120px;
+      background: rgba(44,62,80 ,1);
+      border: none;
+      border-bottom: white solid 1px;
+      z-index: 100;
+  }
+
+  .appQue {
+      /* background: rgba(127, 124, 190, 0.48); */
+      height: 100%;
+      max-width: 495px;
+      margin: 0 auto;
+      padding: 23px;
+      padding-top: 20px;
+      overflow: visible;
+      margin-bottom: 200px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      position: static;
+      top: 100px;
+      left: 0px;
+      z-index: -500;
+  }
+
+  .postEntry {
+      background: rgba(23, 177, 146, 0.82);
+      height: 175px;
+      margin-bottom: 29px;
+      position: relative;
+      width: 100%;
+      box-shadow: 4px 4px 1px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .title-bar {
+      display: inline-flex;
+      height: 40%;
+      width: 100%;
+      background: rgba(158, 158, 158, 0.15);
+      text-align: center;
+      border-bottom: solid 1px white;
+  }
+
+  .settings {
+      width: 141px;
+      margin-top: 9px;
+      font-size: 25px;
+      text-align: left;
+      padding-left: 8px;
+  }
+
+  a.leave {
+      width: 66px;
+      height: 32px;
+      margin: 5px;
+      margin-top: 7px;
+      position: fixed;
+      right: 0px;
+      font-family: 'Dosis', sans-serif;
+      font-weight: bolder;
+      font-size: 23px;
+      color: white;
+      border: white solid 1px;
+      padding: 0px;
+      background: none;
+      text-align: center;
+      text-decoration: none;
+  }
+
+  .title {
+      width: 100%;
+      margin-top: 1px;
+      font-size: 34px;
+      color: rgb(56, 183, 157);
+      position: absolute;
+  }
+
+  .tabContainer {
+      background: rgba(26, 188, 156, 0.43);
+      margin: 0px;
+      height: 71px;
+      display: flex;
+      padding-bottom: 1px;
+  }
+
+  a.tabBtn {
+      font-family: 'Dosis', sans-serif;
+      font-weight: bolder;
+      font-size: 29px;
+      color: white;
+      height: 60px;
+      padding-top: 15px;
+      text-align: center;
+      margin: 0px;
+      background: rgba(0, 0, 255, 0.03);
+      border: none;
+      width: 25%;
+      margin-bottom: -1px;
+      margin-top: 0px;
+      text-decoration: none;
+  }
+
+
+  a.popular.tabBtn {
+      background: rgba(255,255,255,0.3);
+  }
+
+  a.recent.tabBtn {
+      background: rgba(255,255,255,0.25);
+  }
+
+  a.post.tabBtn {
+      background: rgba(255,255,255,0.2);
+  }
+
+  a.heard.tabBtn {
+      background: rgba(255,255,255,0.15);
+  }
+
+  .userIcon {
+      display: inline-block;
+      width: 100px;
+      background: rgba(0, 0, 0, 0.07);
+      height: 105px;
+      border-radius: 4000px;
+      border: none;
+      margin-top: 37px;
+      outline: none;
+      margin-left: 15px;
+  }
+
+  .postName {
+      margin-left: 0;
+      height: 34px;
+      margin-top: 39px;
+      margin-bottom: 6px;
+      font-size: 19px;
+  }
+
+  .postText {
+      display: inline-block;
+      height: 176px;
+      margin-top: 0px;
+      margin-left: 5px;
+      width: 300px;
+      position: absolute;
+      padding: 20px;
+      padding-top: 4px;
+      padding-left: 8px;
+      overflow: hidden;
+  }
+
+  .voteArrow {
+      display: inline-block;
+      width: 16px;
+      height: 0px;
+      background: rgba(255, 255, 255, 0);
+      position: absolute;
+      right: 35px;
+      margin-top: 63px;
+      font-size: 24px;
+      color: rgba(255, 255, 255, 0.15);
+  }
+
+  img.userImage {
+      border-radius: 4000px;
+      border: none;
+      outline: none;
+      overflow: hidden;
+      width: 100px;
+  }
+
+  .btnIcon {
+      padding-left: 6px;
+  }
+
+  .voteArrow.voted {
+      color: rgba(255, 255, 255, 0.93);
+  }
+
+  .fadeAway {
+      content:'';
+      margin-top: -14px;
+      height: 15px;
+      background: linear-gradient(to bottom, rgba(232, 232, 232, 0) 0%, rgb(212, 212, 212) 100%);
+      position: fixed;
+      bottom: 0px;
+      height: 47px;
+      width: 100%;
+  }
+
+
+  div {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  }
+
+  .appHead {
+      box-shadow: 0px 4px 1px 0px rgba(0, 0, 0, 0.35);
+  }
+
+
+  .bottomPadder {
+      height: 150px;
+      width: 100%;
+  }
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-device-width: 500px) {
+
+
+  .page{
+    width: 100%;
+    min-width: 375px;
+  }
+
+  .appContainer {
+      width: 100%;
+      height: 100%;
+      margin-top: 0;
+      background: rgb(212, 212, 212);
+      overflow: hidden;
+      border: none;
+      margin: 0 auto;
+  }
+
+  body.appPage {
+      margin: 0px;
+      width: 100%;
+      height: 100%;
+      font-family: 'Dosis', sans-serif;
+      font-weight: bolder;
+      color: white;
+      display: -webkit-box;
+  }
+
+
+  form#markComplete {
+      display: none;
+  }
+
+
+  .appHead {
+      width: 100%;
+      height: 100px;
+      background: rgba(44,62,80 ,1);
+      border: none;
+      border-bottom: white solid 1px;
+      z-index: 100;
+  }
+
+  .appQue {
+      /* background: rgba(127, 124, 190, 0.48); */
+      height: 100%;
+      max-width: 495px;
+      margin: 0 auto;
+      padding: 23px;
+      padding-top: 20px;
+      overflow: visible;
+      margin-bottom: 200px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      position: static;
+      top: 100px;
+      left: 0px;
+      z-index: -500;
+  }
+
+  .postEntry {
+      background: rgba(23, 177, 146, 0.82);
+      height: 200px;
+      margin-bottom: 29px;
+      position: relative;
+      width: 100%;
+      box-shadow: 4px 4px 1px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .title-bar {
+      display: inline-flex;
+      height: 40%;
+      width: 100%;
+      background: rgba(158, 158, 158, 0.15);
+      text-align: center;
+      border-bottom: solid 1px white;
+  }
+
+  .settings {
+      margin-top: 9px;
+      font-size: 23px;
+      text-align: left;
+      padding-left: 8px;
+  }
+
+  a.leave {
+      width: 66px;
+      height: 25px;
+      margin: 5px;
+      margin-top: 7px;
+      position: fixed;
+      right: 0px;
+      font-family: 'Dosis', sans-serif;
+      font-weight: bolder;
+      font-size: 19px;
+      color: white;
+      border: white solid 1px;
+      padding: 0px;
+      background: none;
+      text-align: center;
+      text-decoration: none;
+  }
+
+  .title {
+      width: 100%;
+      margin-top: 1px;
+      font-size: 30px;
+      color: rgb(56, 183, 157);
+      position: absolute;
+  }
+
+  .tabContainer {
+      background: rgba(26, 188, 156, 0.43);
+      margin: 0px;
+      height: 60%;
+      display: flex;
+      padding-bottom: 1px;
+  }
+
+  a.tabBtn {
+      font-family: 'Dosis', sans-serif;
+      font-weight: bolder;
+      font-size: 20px;
+      color: white;
+      height: 45px;
+      padding-top: 15px;
+      text-align: center;
+      margin: 0px;
+      background: rgba(0, 0, 255, 0.03);
+      border: none;
+      width: 25%;
+      margin-bottom: -1px;
+      margin-top: 0px;
+      text-decoration: none;
+  }
+
+
+  a.popular.tabBtn {
+      background: rgba(255,255,255,0.3);
+  }
+
+  a.recent.tabBtn {
+      background: rgba(255,255,255,0.25);
+  }
+
+  a.post.tabBtn {
+      background: rgba(255,255,255,0.2);
+  }
+
+  a.heard.tabBtn {
+      background: rgba(255,255,255,0.15);
+  }
+
+  .userIcon {
+      display: inline-block;
+      width: 80px;
+      background: rgba(0, 0, 0, 0.07);
+      height: 85px;
+      border-radius: 4000px;
+      border: none;
+      margin-top: -14px;
+      outline: none;
+      margin-left: -17px;
+  }
+
+  .postName {
+      font-size: 20px;
+      margin-left: 34px;
+      height: 61px;
+      margin-bottom: 6px;
+      font-size: 24px;
+  }
+
+  .postText {
+      display: inline-block;
+      height: 143px;
+      margin-top: 0px;
+      margin-left: -47px;
+      width: 290px;
+      position: absolute;
+      padding: 20px;
+      padding-top: 4px;
+      overflow: hidden;
+  }
+
+  .voteArrow {
+      display: inline-block;
+      width: 20px;
+      height: 0px;
+      background: rgba(255, 255, 255, 0);
+      position: absolute;
+      right: 35px;
+      margin-top: 76px;
+      font-size: 26px;
+      color: rgba(255, 255, 255, 0.15);
+  }
+
+  img.userImage {
+      border-radius: 4000px;
+      border: none;
+      outline: none;
+      overflow: hidden;
+      width: 80px;
+  }
+
+  .btnIcon {
+      padding-left: 6px;
+  }
+
+  .voteArrow.voted {
+      color: rgba(255, 255, 255, 0.93);
+  }
+
+  .fadeAway {
+      content:'';
+      margin-top: -14px;
+      height: 15px;
+      background: linear-gradient(to bottom, rgba(232, 232, 232, 0) 0%, rgb(212, 212, 212) 100%);
+      position: fixed;
+      bottom: 0px;
+      height: 47px;
+      width: 100%;
+  }
+
+
+  div {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  }
+
+  .appHead {
+      box-shadow: 0px 4px 1px 0px rgba(0, 0, 0, 0.35);
+  }
+
+
+  .bottomPadder {
+      height: 150px;
+      width: 100%;
+  }
+
+
+}
+
+@media screen and (max-device-width: 340px) {
+
+
+  .page{
+    width: 100%;
+    min-width: 300px;
+  }
+
+  .appContainer {
+      width: 100%;
+      height: 100%;
+      margin-top: 0;
+      background: rgb(212, 212, 212);
+      overflow: hidden;
+      border: none;
+      margin: 0 auto;
+  }
+
+  body.appPage {
+      margin: 0px;
+      width: 100%;
+      height: 100%;
+      font-family: 'Dosis', sans-serif;
+      font-weight: bolder;
+      color: white;
+      display: -webkit-box;
+  }
+
+
+  form#markComplete {
+      display: none;
+  }
+
+
+  .appHead {
+      width: 100%;
+      height: 78px;
+      background: rgba(44,62,80 ,1);
+      border: none;
+      border-bottom: white solid 1px;
+      z-index: 100;
+  }
+
+  .appQue {
+      /* background: rgba(127, 124, 190, 0.48); */
+      height: 100%;
+      max-width: 495px;
+      margin: 0 auto;
+      padding: 23px;
+      padding-top: 20px;
+      overflow: visible;
+      margin-bottom: 200px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      position: static;
+      top: 100px;
+      left: 0px;
+      z-index: -500;
+  }
+
+  .postEntry {
+      background: rgba(23, 177, 146, 0.82);
+      height: 200px;
+      margin-bottom: 20px;
+      position: relative;
+      width: 100%;
+      box-shadow: 4px 4px 1px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .title-bar {
+      display: inline-flex;
+      height: 40px;
+      width: 100%;
+      background: rgba(158, 158, 158, 0.15);
+      text-align: center;
+      border-bottom: solid 1px white;
+  }
+
+  .settings {
+      width: 65px;
+      margin-top: 12px;
+      font-size: 17px;
+      text-align: left;
+      padding-left: 8px;
+  }
+
+  a.leave {
+      width: 61px;
+      height: 29px;
+      margin: 5px;
+      position: fixed;
+      right: 0px;
+      font-family: 'Dosis', sans-serif;
+      font-weight: bolder;
+      font-size: 21px;
+      color: white;
+      border: white solid 1px;
+      padding: 0px;
+      background: none;
+      text-align: center;
+      text-decoration: none;
+  }
+
+  .title {
+      width: 100%;
+      margin-top: 2px;
+      font-size: 28px;
+      color: rgb(56, 183, 157);
+      position: absolute;
+  }
+
+  .tabContainer {
+      background: rgba(26, 188, 156, 0.43);
+      margin: 0px;
+      height: 36px;
+      display: flex;
+      padding-bottom: 1px;
+  }
+
+  a.tabBtn {
+      font-family: 'Dosis', sans-serif;
+      font-weight: bolder;
+      font-size: 15px;
+      color: white;
+      height: 30px;
+      padding-top: 7px;
+      text-align: center;
+      margin: 0px;
+      background: rgba(0, 0, 255, 0.03);
+      border: none;
+      width: 25%;
+      margin-bottom: -1px;
+      margin-top: 0px;
+      text-decoration: none;
+  }
+
+
+  a.popular.tabBtn {
+      background: rgba(255,255,255,0.3);
+  }
+
+  a.recent.tabBtn {
+      background: rgba(255,255,255,0.25);
+  }
+
+  a.post.tabBtn {
+      background: rgba(255,255,255,0.2);
+  }
+
+  a.heard.tabBtn {
+      background: rgba(255,255,255,0.15);
+  }
+
+  .userIcon {
+      display: inline-block;
+      width: 60px;
+      background: rgba(0, 0, 0, 0.07);
+      height: 66px;
+      border-radius: 4000px;
+      border: none;
+      margin-top: -10px;
+      outline: none;
+      margin-left: -16px;
+  }
+
+  .postName {
+      font-size: 20px;
+      padding-left: 11px;
+      height: 40px;
+  }
+
+  .postText {
+      display: inline-block;
+      height: 178px;
+      width: 233px;
+      position: absolute;
+      padding: 11px;
+      padding-left: 18px;
+      overflow: hidden;
+  }
+
+  .voteArrow {
+      display: inline-block;
+      width: 15px;
+      height: 0px;
+      background: rgba(255, 255, 255, 0);
+      position: absolute;
+      right: 36px;
+      bottom: 56px;
+      font-size: 26px;
+      color: rgba(255, 255, 255, 0.15);
+  }
+
+  img.userImage {
+      border-radius: 4000px;
+      border: none;
+      outline: none;
+      overflow: hidden;
+      width: 60px;
+  }
+
+  .btnIcon {
+      padding-left: 6px;
+  }
+
+  .voteArrow.voted {
+      color: rgba(255, 255, 255, 0.93);
+  }
+
+  .fadeAway {
+      content:'';
+      margin-top: -14px;
+      height: 15px;
+      background: linear-gradient(to bottom, rgba(232, 232, 232, 0) 0%, rgb(212, 212, 212) 100%);
+      position: fixed;
+      bottom: 0px;
+      height: 47px;
+      width: 100%;
+  }
+
+
+  div {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  }
+
+  .appHead {
+      box-shadow: 0px 4px 1px 0px rgba(0, 0, 0, 0.35);
+  }
+
+
+  .bottomPadder {
+      height: 150px;
+      width: 100%;
+  }
+
+
+}
+
+
+.postArea {
+    background-color: rgba(23, 177, 146, 0.82);
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.3);
+    color: #3d4d5c;
+}
+
+.formTitle {
+    font-size: 29px;
+    width: 100%;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    font-weight: 500;
+}
+
+label {}
+
+input.form-control {
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+
+.postInputBox {
+    height: 35px;
+    background-color: white;
+    position: relative;
+}
+
+input.postInput {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    width: 100%;
+    padding-left: 45px;
+    position: static;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    z-index: 10;
+    outline: none;
+}
+
+
+label.itemlabel {
+    position: absolute;
+    padding-top: 6px;
+    z-index: 100;
+    top: 0px;
+    left: 1px;
+    font-size: 23px;
+    padding-left: 7px;
+    font-weight: 300;
+}
+
+.postInputArea {
+    width: 100%;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+textarea.form-control {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    padding-left: 7px;
+    position: static;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    z-index: 10;
+    outline: none;
+    text-indent: 45px;
+    resize: none;
+}
+
+
+label.itemlabeltArea {
+    position: absolute;
+    top: 5px;
+    left: 9px;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+
+.submitBtn {text-align: center;margin-bottom: 20px;}
+
+input.btn.btn-default.submit {
+    margin-bottom: 20px;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    color: #3d4d5c;
+}
+
+input.btn.btn-default.submit {
+    background-color: rgba(255, 255, 255, 0.91);
+}
+
+
+button.btn {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+input[type="text"] {
+    display: none;
+}
+
+input#tagBox {
+    display: block;
+    margin-top: 6px;
+}
+
+a.settingsBtn {
+    color: white;
+    width: 500px;
+}

@@ -1,0 +1,42 @@
+{% extends "reg_login.html" %}
+ {% block content %}
+
+
+<form action="" method="post" name="AddTask" autocomplete="off">
+    {{ form.hidden_tag() }}
+    <div class="form-group registerUser drop-shadow">
+      <div class="titleWindow">
+        Register Here
+      </div>
+
+      <div class="intro"> We're gonna get along just great! Pop in your details below to get started!
+      We reccomend you setup a Gravitar account to give your user account a swankey picture.
+      You can find out how from the setting menu after you've created your account.</div>
+
+      <div class="dataContainer">
+
+
+      <label for="usr">Email Address:</label>
+      <div class="inputBox">
+        <input type=text name=email class="form-control" autocomplete="off"/>
+      </div>
+      <label for="usr">Nickname:</label>
+      <div class="inputBox">
+        <input type=text name=nickname class="form-control" autocomplete="off"/>
+      </div>
+      <label for="usr">Password:</label>
+      <div class="inputBox">
+        <input type=password name=password class="form-control" autocomplete="off"/>
+      </div>
+
+
+      <div class="submitBtn">
+        <input type="submit" value="Register" class="btn btn-default submit">
+      </div>
+
+      </div>
+    </div>
+
+</form>
+
+{% endblock %}

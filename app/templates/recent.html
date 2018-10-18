@@ -1,0 +1,32 @@
+{% extends "myheard.html" %}
+{% block content %}
+
+
+{% for post in Posts %}
+
+      <div class="postEntry">
+        <div class="userIcon">
+          <img class="userImage" src="{{ current_user.avatar(128) }}" />
+
+          </div>
+        <div class="postText">
+          <div class="postName">
+            UserName - {{ post.tag }}
+          </div>
+          <div class="postContent">
+            {{post.content}}
+          </div>
+        </div>
+        <div class="voteArrow">
+          <i class="fa fa-thumbs-up fa-2x"></i>
+        </div>
+      </div>
+
+{% endfor %}
+
+<div class="bottomPadder">
+
+</div>
+
+
+{% endblock %}

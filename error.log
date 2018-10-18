@@ -1,0 +1,1451 @@
+DEBUG:file:Debug FILE
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:14:32] "GET / HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:14:33] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:14:46] "GET /connect HTTP/1.1" 301 -
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:14:46] "GET /connect/ HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:14:46] "GET /connect/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:14:46] "GET /connect/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:14:46] "GET /connect/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:14:47] "GET /connect/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:14:47] "GET /connect/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:14:47] "GET /connect/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/web_portal/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:15:32] "GET /connect/ HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:15:32] "GET /connect/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:15:32] "GET /connect/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:15:32] "GET /connect/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:15:32] "GET /connect/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:15:32] "GET /connect/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:15:32] "GET /connect/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/web_portal/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: None
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:15:55] "GET /connect/ HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:15:55] "GET /connect/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:15:55] "GET /connect/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:15:55] "GET /connect/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:15:56] "GET /connect/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:15:56] "GET /connect/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:15:56] "GET /connect/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/web_portal/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:16:34] "GET /connect/ HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:16:34] "GET /connect/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:16:34] "GET /connect/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:16:34] "GET /connect/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:16:34] "GET /connect/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:16:34] "GET /connect/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:16:34] "GET /connect/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:17:07] "GET /connect/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:17:07] "GET /connect/static/css/global-styles.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:17:07] "GET /connect/static/css/font-awesome.min.css HTTP/1.1" 404 -
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:18:38] "GET /connect/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:18:38] "GET /connect/static/css/global-styles.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:18:38] "GET /connect/static/css/font-awesome.min.css HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/web_portal/forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/web_portal/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:32:13] "GET /connect/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:32:13] "GET /connect/static/css/global-styles.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:32:13] "GET /connect/static/css/font-awesome.min.css HTTP/1.1" 404 -
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:32:18] "GET /connect/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:32:18] "GET /connect/static/css/font-awesome.min.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:32:18] "GET /connect/static/css/global-styles.css HTTP/1.1" 404 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:32:27] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:32:27] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:32:27] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:32:27] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:32:27] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:32:27] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:32:27] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/web_portal/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:35:55] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:35:55] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:35:55] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:35:55] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:35:55] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:35:55] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:35:55] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:Debug FILE
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Desktop/cyber-lab/db_repository...
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Desktop/cyber-lab/app.db)
+DEBUG:file:Debug FILE
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Desktop/cyber-lab/db_repository...
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Desktop/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Desktop/cyber-lab/db_repository...
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Desktop/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Desktop/cyber-lab/app.db)
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:39] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:39] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:39] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:39] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:39] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:39] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:39] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:48] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:48] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:48] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:48] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:48] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:48] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:48] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:49] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:49] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:49] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:49] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:49] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:49] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:37:49] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:Debug FILE
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Desktop/cyber-lab/db_repository...
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Desktop/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Desktop/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Desktop/cyber-lab/db_repository...
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Desktop/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Desktop/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Desktop/cyber-lab/db_repository...
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Desktop/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Desktop/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Desktop/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Desktop/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+INFO:migrate.versioning.api:0 -> 1... 
+INFO:migrate.versioning.api:done
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Desktop/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Desktop/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Desktop/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Desktop/cyber-lab/app.db)
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:05] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:05] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:05] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:05] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:05] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:05] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:06] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/web_portal/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:39] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:39] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:39] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:39] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:39] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:39] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:39] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:42] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:42] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:42] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:42] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:42] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:42] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:38:42] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/web_portal/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:20] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:20] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:20] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:20] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:20] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:20] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:20] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:29] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:29] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:29] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:29] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:29] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:29] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:29] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:30] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:30] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:30] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:30] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:30] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:30] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:30] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/web_portal/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:42] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:42] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:42] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:42] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:42] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:42] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:42] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:43] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:43] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:43] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:43] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:43] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:43] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:39:43] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:12] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:12] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:12] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:12] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:12] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:12] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:12] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/web_portal/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:37] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:37] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:37] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:37] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:37] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:37] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:37] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:39] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:39] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:39] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:39] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:39] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:40] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:40] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:42] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:42] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:42] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:42] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:42] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:42] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:42] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:48] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:48] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:48] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:48] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:48] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:48] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:41:48] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/web_portal/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/web_portal/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:11] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:11] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:11] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:11] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:12] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:12] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:12] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:15] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:15] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:15] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:15] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:15] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:15] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:15] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:15] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:15] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:15] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:15] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:16] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:16] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:16] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:16] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:16] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:16] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:16] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:16] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:16] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:16] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:16] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:16] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:16] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:16] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:17] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:17] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:17] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:17] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:17] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:17] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:17] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:17] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:17] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:17] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:17] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:17] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:17] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:17] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:18] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:18] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:18] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:18] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:18] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:18] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:18] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:18] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:18] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:18] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:29] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:29] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:29] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:29] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:29] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:29] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:42:29] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:Debug FILE
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Desktop/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Desktop/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Desktop/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Desktop/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Desktop/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Desktop/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Desktop/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Desktop/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Desktop/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Desktop/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/002_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/002_migration.py loaded successfully
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Desktop/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+INFO:migrate.versioning.api:1 -> 2... 
+INFO:migrate.versioning.api:done
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Desktop/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Desktop/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/002_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/002_migration.py loaded successfully
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Desktop/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Desktop/cyber-lab/app.db)
+DEBUG:file:Debug FILE
+DEBUG:file:Debug FILE
+DEBUG:file:Debug FILE
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:44:46] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:44:46] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:44:46] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:44:46] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:44:46] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:44:46] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:44:46] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/web_portal/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:45:44] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:45:44] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:45:44] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:45:44] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:45:44] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:45:44] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:45:44] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/web_portal/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:45:58] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:45:58] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:45:58] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:45:58] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:45:58] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:45:58] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:45:58] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/web_portal/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/web_portal/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:50:35] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:50:35] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:50:35] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:50:35] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:50:35] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:50:35] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:50:35] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:50:53] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:50:53] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:50:53] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:50:53] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:50:54] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:50:54] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:50:54] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:51:19] "GET /connect/324 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:51:19] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:51:32] "GET /connect24 HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:51:57] "GET /connect24 HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 34534
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:27] "GET /connect?s=34534 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:27] "GET /connect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:27] "GET /connect?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:27] "GET /connect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:27] "GET /connect?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:27] "GET /connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:27] "GET /connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 34534
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:43] "GET /connect?s=34534 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:43] "GET /connect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:43] "GET /connect?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:43] "GET /connect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:43] "GET /connect?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:43] "GET /connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:43] "GET /connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 34534
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:45] "GET /connect?s=34534 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:45] "GET /connect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:45] "GET /connect?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:45] "GET /connect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:46] "GET /connect?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:52:46] "GET /connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 34534
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:53:29] "GET /connect?s=34534 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:53:29] "GET /static/css/global-styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:53:29] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 34534
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:53:31] "GET /connect?s=34534 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 34534
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:53:32] "GET /connect?s=34534 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 34534
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:53:32] "GET /connect?s=34534 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 34534
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:53:32] "GET /connect?s=34534 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 34534
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:53:34] "GET /connect?s=34534 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 34534
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:53:34] "GET /connect?s=34534 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 34534
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:54:53] "GET /connect?s=34534 HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:54:58] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:54:58] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:54:58] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:54:58] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:54:59] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:54:59] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:55:15] "GET /new HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:55:15] "GET /connect/%20session%3D2085e242-826f-4992-9c06-4c6c5aad9805%26cont%3D1 HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+DEBUG:file:Added session: 2
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:55:43] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 5594df80-9add-476c-a38d-a52047c97a93
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:55:43] "GET /connect?s=5594df80-9add-476c-a38d-a52047c97a93&c=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:55:43] "GET /connect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:55:43] "GET /connect?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:55:43] "GET /connect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:55:43] "GET /connect?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:55:43] "GET /connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:55:43] "GET /connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 5594df80-9add-476c-a38d-a52047c97a93
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:56:35] "GET /connect?s=5594df80-9add-476c-a38d-a52047c97a93&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 5594df80-9add-476c-a38d-a52047c97a93
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 12:57:04] "GET /connect?s=5594df80-9add-476c-a38d-a52047c97a93&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/run.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/run.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/run.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:Debug FILE
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Desktop/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/002_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/002_migration.py loaded successfully
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Desktop/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Desktop/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Desktop/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/002_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/002_migration.py loaded successfully
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Desktop/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Desktop/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Desktop/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/002_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/002_migration.py loaded successfully
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Desktop/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Desktop/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Desktop/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/002_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/002_migration.py loaded successfully
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/003_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/003_migration.py loaded successfully
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Desktop/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+INFO:migrate.versioning.api:2 -> 3... 
+INFO:migrate.versioning.api:done
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Desktop/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Desktop/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/002_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/002_migration.py loaded successfully
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/003_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/003_migration.py loaded successfully
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Desktop/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Desktop/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Desktop/cyber-lab/app.db)
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 5594df80-9add-476c-a38d-a52047c97a93
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:05:14] "GET /connect?s=5594df80-9add-476c-a38d-a52047c97a93&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 5594df80-9add-476c-a38d-a52047c97a93
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:05:17] "GET /connect?s=5594df80-9add-476c-a38d-a52047c97a93&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:05:20] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:05:20] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:05:20] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:05:20] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:05:20] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:05:20] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:05:21] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+DEBUG:file:Added session: 3
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:06:32] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 89c2661f-6ddb-469f-888d-8b5038ed6d7b
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:06:32] "GET /connect?s=89c2661f-6ddb-469f-888d-8b5038ed6d7b&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 89c2661f-6ddb-469f-888d-8b5038ed6d7b
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:06:34] "GET /connect?s=89c2661f-6ddb-469f-888d-8b5038ed6d7b&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 89c2661f-6ddb-469f-888d-8b5038ed6d7b
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:06:34] "GET /connect?s=89c2661f-6ddb-469f-888d-8b5038ed6d7b&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 89c2661f-6ddb-469f-888d-8b5038ed6d7b
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:06:35] "GET /connect?s=89c2661f-6ddb-469f-888d-8b5038ed6d7b&c=1 HTTP/1.1" 200 -
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+DEBUG:file:Added session: 4
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:06:45] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 87a06700-04b8-41f9-bdca-d0475e2151fa
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:06:45] "GET /connect?s=87a06700-04b8-41f9-bdca-d0475e2151fa&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 5
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:06:48] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 6ae76adc-a119-4b56-a5ea-5a4e2361cc17
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:06:48] "GET /connect?s=6ae76adc-a119-4b56-a5ea-5a4e2361cc17&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 6ae76adc-a119-4b56-a5ea-5a4e2361cc17
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:07:48] "GET /connect?s=6ae76adc-a119-4b56-a5ea-5a4e2361cc17&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 6ae76adc-a119-4b56-a5ea-5a4e2361cc17
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:07:49] "GET /connect?s=6ae76adc-a119-4b56-a5ea-5a4e2361cc17&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:07:52] "GET /run HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 6
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:07:56] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: e594e9bb-9757-40e1-9476-0bf4ddc153ad
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:07:56] "GET /connect?s=e594e9bb-9757-40e1-9476-0bf4ddc153ad&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+DEBUG:file:Added session: 7
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:09:04] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: c2e662f1-5993-41be-b30d-6f1011bcc270
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:09:04] "GET /connect?s=c2e662f1-5993-41be-b30d-6f1011bcc270&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 8
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:09:09] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 12cc13ea-fc76-4254-82f4-32e64cd819e9
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:09:09] "GET /connect?s=12cc13ea-fc76-4254-82f4-32e64cd819e9&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 12cc13ea-fc76-4254-82f4-32e64cd819e9
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:09:10] "GET /connect?s=12cc13ea-fc76-4254-82f4-32e64cd819e9&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 9
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:09:13] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 85c530f2-3be2-41ec-a610-237ae69d74cd
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:09:13] "GET /connect?s=85c530f2-3be2-41ec-a610-237ae69d74cd&c=1 HTTP/1.1" 200 -
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 85c530f2-3be2-41ec-a610-237ae69d74cd
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:12:55] "GET /connect?s=85c530f2-3be2-41ec-a610-237ae69d74cd&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:00] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:01] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:01] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:01] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:01] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:01] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:01] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:35] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:35] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:35] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:35] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:35] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:35] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:35] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:36] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:36] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:36] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:36] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:36] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:36] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:13:36] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:15:26] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:15:26] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:15:26] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:15:26] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:15:27] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:15:27] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:15:27] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:15:40] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:15:40] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:15:40] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:15:40] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:15:40] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:15:40] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:15:40] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:16:11] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:16:11] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:16:11] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:16:11] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:16:11] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:16:11] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:16:11] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:17:15] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 1f2b0ca6-4efe-46ff-b100-ab53ad9d553f
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:17:15] "GET /connect?s=1f2b0ca6-4efe-46ff-b100-ab53ad9d553f&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 1f2b0ca6-4efe-46ff-b100-ab53ad9d553f
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:17:21] "GET /connect?s=1f2b0ca6-4efe-46ff-b100-ab53ad9d553f&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 2
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:17:24] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 8aba4731-018f-4c0f-872b-61eab6885345
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:17:24] "GET /connect?s=8aba4731-018f-4c0f-872b-61eab6885345&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 3
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:17:30] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 555d3db6-8f59-48db-ad74-1144ca151bd5
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:17:30] "GET /connect?s=555d3db6-8f59-48db-ad74-1144ca151bd5&c=1 HTTP/1.1" 200 -
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:19:24] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:19:31] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:19:31] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:19:31] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:19:31] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:19:31] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:19:31] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:13] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:13] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:13] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:13] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:13] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:13] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:13] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:15] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:15] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:15] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:15] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:15] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:15] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:15] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:37] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 4b7eea6b-8a37-4159-a35f-f4bdfd26b045
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:38] "GET /connect?s=4b7eea6b-8a37-4159-a35f-f4bdfd26b045&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 2
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:44] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: e2a29d1a-9f48-4857-81c6-e16d5198bed1
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:44] "GET /connect?s=e2a29d1a-9f48-4857-81c6-e16d5198bed1&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 3
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:48] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 41a290a2-e545-4fc2-b90a-99cb8495a26a
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:20:48] "GET /connect?s=41a290a2-e545-4fc2-b90a-99cb8495a26a&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 41a290a2-e545-4fc2-b90a-99cb8495a26a
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:21:07] "GET /connect?s=41a290a2-e545-4fc2-b90a-99cb8495a26a&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:21:09] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 7dc1d9f8-44d0-45ac-81cf-b98104de54b8
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:21:09] "GET /connect?s=7dc1d9f8-44d0-45ac-81cf-b98104de54b8&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 2
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:21:12] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: d15d446d-e2d4-45d4-950f-7b1152d954bc
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:21:12] "GET /connect?s=d15d446d-e2d4-45d4-950f-7b1152d954bc&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 3
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:21:16] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 12b4f271-a925-40d6-89a6-a64e1e9b1108
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:21:16] "GET /connect?s=12b4f271-a925-40d6-89a6-a64e1e9b1108&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 4
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:21:21] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 50fc0121-c47d-43a4-9874-b17cc37c5632
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:21:21] "GET /connect?s=50fc0121-c47d-43a4-9874-b17cc37c5632&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 50fc0121-c47d-43a4-9874-b17cc37c5632
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:21:32] "GET /connect?s=50fc0121-c47d-43a4-9874-b17cc37c5632&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 50fc0121-c47d-43a4-9874-b17cc37c5632
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:30:06] "GET /connect?s=50fc0121-c47d-43a4-9874-b17cc37c5632&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:30:09] "GET /new HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:30:09] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:30:09] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:30:09] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:30:10] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:30:10] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:30:10] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:30:42] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 8f0da954-466c-492b-91d7-2c5035c4ab1c
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:30:42] "GET /connect?s=8f0da954-466c-492b-91d7-2c5035c4ab1c&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 8f0da954-466c-492b-91d7-2c5035c4ab1c
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:30:47] "GET /connect?s=8f0da954-466c-492b-91d7-2c5035c4ab1c&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 8f0da954-466c-492b-91d7-2c5035c4ab1c
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:30:52] "GET /connect?s=8f0da954-466c-492b-91d7-2c5035c4ab1c&c=2 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 8f0da954-466c-492b-91d7-2c5035c4ab1c
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:30:56] "GET /connect?s=8f0da954-466c-492b-91d7-2c5035c4ab1c&c=3 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 8f0da954-466c-492b-91d7-2c5035c4ab1c
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:31:14] "GET /connect?s=8f0da954-466c-492b-91d7-2c5035c4ab1c&c=3 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 8f0da954-466c-492b-91d7-2c5035c4ab1c
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:31:18] "GET /connect?s=8f0da954-466c-492b-91d7-2c5035c4ab1c&c=3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:31:21] "GET /run HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:31:24] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: c54dc7e1-486d-40d2-8bb5-54a16f7c9bfe
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:31:24] "GET /connect?s=c54dc7e1-486d-40d2-8bb5-54a16f7c9bfe&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: c54dc7e1-486d-40d2-8bb5-54a16f7c9bfe
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:31:26] "GET /connect?s=c54dc7e1-486d-40d2-8bb5-54a16f7c9bfe&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: c54dc7e1-486d-40d2-8bb5-54a16f7c9bfe
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:31:30] "GET /connect?s=c54dc7e1-486d-40d2-8bb5-54a16f7c9bfe&c=2 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: c54dc7e1-486d-40d2-8bb5-54a16f7c9bfe
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:31:32] "GET /connect?s=c54dc7e1-486d-40d2-8bb5-54a16f7c9bfe&c=3 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: c54dc7e1-486d-40d2-8bb5-54a16f7c9bfe
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:31:34] "GET /connect?s=c54dc7e1-486d-40d2-8bb5-54a16f7c9bfe&c=4 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:31:37] "GET /connect?s=c54dc7e1-486d-40d2-8bb5-54a16f7c9bfe HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:31:40] "GET /connect?s=c54dc7e1-486d-40d2-8bb5-54a16f7c9b HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:31:44] "GET /connect?s=c54dc7e1-486d-40d2-8bb5-54a16 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:31:51] "GET /connect HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 2
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:31:54] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 6f279f2a-4615-4a59-9d41-fe8ecca0f5cc
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:31:54] "GET /connect?s=6f279f2a-4615-4a59-9d41-fe8ecca0f5cc&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 6f279f2a-4615-4a59-9d41-fe8ecca0f5cc
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:31:59] "GET /connect?s=6f279f2a-4615-4a59-9d41-fe8ecca0f5cc&c=2 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 6f279f2a-4615-4a59-9d41-fe8ecca0f5cc
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:32:02] "GET /connect?s=6f279f2a-4615-4a59-9d41-fe8ecca0f5cc&c=3 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 6f279f2a-4615-4a59-9d41-fe8ecca0f5cc
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:40:06] "GET /connect?s=6f279f2a-4615-4a59-9d41-fe8ecca0f5cc&c=3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:40:10] "GET /run HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:40:13] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 339e2b2a-e06a-4500-8790-5f6b1cca3a38
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:40:13] "GET /connect?s=339e2b2a-e06a-4500-8790-5f6b1cca3a38&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 339e2b2a-e06a-4500-8790-5f6b1cca3a38
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:40:34] "GET /connect?s=339e2b2a-e06a-4500-8790-5f6b1cca3a38&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 339e2b2a-e06a-4500-8790-5f6b1cca3a38
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:40:52] "GET /connect?s=339e2b2a-e06a-4500-8790-5f6b1cca3a38&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 339e2b2a-e06a-4500-8790-5f6b1cca3a38
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:40:54] "GET /connect?s=339e2b2a-e06a-4500-8790-5f6b1cca3a38&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 339e2b2a-e06a-4500-8790-5f6b1cca3a38
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:41:01] "GET /connect?s=339e2b2a-e06a-4500-8790-5f6b1cca3a38&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 339e2b2a-e06a-4500-8790-5f6b1cca3a38
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:41:01] "GET /connect?s=339e2b2a-e06a-4500-8790-5f6b1cca3a38&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 339e2b2a-e06a-4500-8790-5f6b1cca3a38
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:48:13] "GET /connect?s=339e2b2a-e06a-4500-8790-5f6b1cca3a38&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:48:16] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 9f3713b8-e0e5-444b-80fd-34721ad91823
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:48:16] "GET /connect?s=9f3713b8-e0e5-444b-80fd-34721ad91823&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 9f3713b8-e0e5-444b-80fd-34721ad91823
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:52:46] "GET /connect?s=9f3713b8-e0e5-444b-80fd-34721ad91823&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 9f3713b8-e0e5-444b-80fd-34721ad91823
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:55:23] "GET /connect?s=9f3713b8-e0e5-444b-80fd-34721ad91823&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 2
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:55:53] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: ae8fe34c-ffb6-451f-b3da-8ce0b780ab23
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:55:53] "GET /connect?s=ae8fe34c-ffb6-451f-b3da-8ce0b780ab23&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 3
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:56:03] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 94d3e681-8b3e-43e3-af90-02c04dfe8ac4
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:56:03] "GET /connect?s=94d3e681-8b3e-43e3-af90-02c04dfe8ac4&c=1 HTTP/1.1" 200 -
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 94d3e681-8b3e-43e3-af90-02c04dfe8ac4
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:56:15] "GET /connect?s=94d3e681-8b3e-43e3-af90-02c04dfe8ac4&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:56:19] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 214503bf-40e7-46bb-8474-3e7664c512cb
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:56:19] "GET /connect?s=214503bf-40e7-46bb-8474-3e7664c512cb&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 214503bf-40e7-46bb-8474-3e7664c512cb
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:57:31] "GET /connect?s=214503bf-40e7-46bb-8474-3e7664c512cb&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:57:31] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:57:31] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 214503bf-40e7-46bb-8474-3e7664c512cb
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:57:32] "GET /connect?s=214503bf-40e7-46bb-8474-3e7664c512cb&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:57:32] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:57:32] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 214503bf-40e7-46bb-8474-3e7664c512cb
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:57:37] "GET /connect?s=214503bf-40e7-46bb-8474-3e7664c512cb&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:57:37] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:57:37] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 214503bf-40e7-46bb-8474-3e7664c512cb
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:57:38] "GET /connect?s=214503bf-40e7-46bb-8474-3e7664c512cb&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:57:38] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:57:38] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 214503bf-40e7-46bb-8474-3e7664c512cb
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:59:29] "GET /connect?s=214503bf-40e7-46bb-8474-3e7664c512cb&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:59:29] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 13:59:29] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 214503bf-40e7-46bb-8474-3e7664c512cb
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:00:00] "GET /connect?s=214503bf-40e7-46bb-8474-3e7664c512cb&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:00:00] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:00:00] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:00:06] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 5b678f48-62a2-4e25-8a27-d8adfeacd674
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:00:06] "GET /connect?s=5b678f48-62a2-4e25-8a27-d8adfeacd674&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:00:06] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:00:06] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 5b678f48-62a2-4e25-8a27-d8adfeacd674
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:00:40] "GET /connect?s=5b678f48-62a2-4e25-8a27-d8adfeacd674&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:00:40] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:00:41] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 5b678f48-62a2-4e25-8a27-d8adfeacd674
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:02:08] "GET /connect?s=5b678f48-62a2-4e25-8a27-d8adfeacd674&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:02:08] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:02:08] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:02:11] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 89fdecc4-b7d5-48b6-8e9c-9fb7eea3d712
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:02:11] "GET /connect?s=89fdecc4-b7d5-48b6-8e9c-9fb7eea3d712&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:02:11] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:02:11] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Desktop/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 279-972-345
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 89fdecc4-b7d5-48b6-8e9c-9fb7eea3d712
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:02:37] "GET /connect?s=89fdecc4-b7d5-48b6-8e9c-9fb7eea3d712&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:02:38] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:02:38] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:02:41] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 11c803e4-9297-494e-8776-96ed3535c0b6
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:02:41] "GET /connect?s=11c803e4-9297-494e-8776-96ed3535c0b6&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:02:41] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:02:41] "GET /js/bootstrap.min.js HTTP/1.1" 404 -

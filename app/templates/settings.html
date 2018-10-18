@@ -1,0 +1,41 @@
+{% extends "myHeard.html" %}
+ {% block content %}
+
+
+    <div class="form-group userSettings drop-shadow">
+      <div class="titleWindow">
+        Your Account
+      </div>
+
+
+      <div class="dataContainerReg">
+
+        <div class="userIconAccount">
+          <img class="userImage accountImg" src="{{ current_user.avatar(128) }}" />
+          </div>
+        <div class=details>
+          <div>
+            Email Address: {{current_user.email}}
+          </div>
+          <div>
+            Nickname: {{current_user.nickname}}
+          </div>
+          <div>
+            Current Score: {{current_user.score}}
+          </div>
+
+          <div class="smallerText">
+            Create a Gravitar account to give your user account a swankey picture.
+            You can do that <a class="inLink" href="https://en.gravatar.com/site/signup/">here!</a> Please note that Gravitar is an external service and
+            we hold no responsibility for any data you provice to them.</div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+<div class="bottomPadderSettings"></div>
+
+
+{% endblock %}

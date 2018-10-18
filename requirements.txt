@@ -1,4 +1,6 @@
 flask
 flask_restful
+flask-wtf
 sqlalchemy
 flask-sqlalchemy
+sqlalchemy-migrate
