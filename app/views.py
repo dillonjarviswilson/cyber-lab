@@ -5,7 +5,7 @@ from app.models import Session
 from sqlalchemy import desc, tuple_
 import logging, logging.config, uuid
 import atexit
-
+import subprocess
 
 logfile    = logging.getLogger('file')
 logconsole = logging.getLogger('console')
@@ -25,6 +25,8 @@ def exit_handler():
         print("Call to close: " + str(s.user_number))
         db.session.delete(s)
         db.session.commit()
+	subprocess.call(['./stop.sh', str(s.user_number)])
+
 
 
 atexit.register(exit_handler)
@@ -54,7 +56,6 @@ def main_session():
     session_to_show = Session.query.filter_by(unique_identifier=session_id).first()
 
     if session_to_show != None:
-        
         c = int(container)
         ref = None
         if c == 1: ref = session_to_show.ap_address
@@ -64,7 +65,7 @@ def main_session():
             return render_template('not_found.html',
                                 title='Invalid Continer ref: use 1, 2 or 3',
                                 session_id=session_id)
-        
+
         url_to_show = get_full_url(ref)
 
         return render_template('connection.html',
@@ -98,9 +99,9 @@ def new():
 
     print("Call to run session: " + str(new))
     
-    a = (new * 4) + 4300
-    b = (new * 4) + 4301
-    c = (new * 4) + 4302
+    a = (new * 3) + 4300
+    b = (new * 3) + 4301
+    c = (new * 3) + 4302
 
 
     new_session = models.Session(unique_identifier=str(session_id),
@@ -114,10 +115,18 @@ def new():
     db.session.add(new_session)
     db.session.commit()
 
+
+    subprocess.call(['./run.sh', str(new_session.user_number)])
+
     logfile.debug("Added session: " + str(new_session.id))
  
     query = str("/connect?" + "s=" + new_session.unique_identifier + "&c=1")
     return redirect(query)
 
 
+
+@app.route('/', methods=['GET'])
+def home():
+	return render_template('root.html',
+                                title='Weclome')
 

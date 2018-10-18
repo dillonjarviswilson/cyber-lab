@@ -17,10 +17,10 @@ echo $POS_CONTAINER
 VAL="$(($1 + 0))"
 NET_IP="192.168.$VAL.0/24"
 
-BASE_PORT="$(($1 * 4 + 4300))"
-AP_PORT="$(($1 * 4 + 4301))"
-CLIENT_PORT="$(($1 * 4 + 4302))"
-POS_PORT="$(($1 * 4 + 4303))"
+BASE_PORT="$(($1 * 3 + 4300))"
+AP_PORT="$(($BASE_PORT + 0))"
+CLIENT_PORT="$(($BASE_PORT + 1))"
+POS_PORT="$(($BASE_PORT + 2))"
 
 echo $BASE_PORT
 echo $AP_PORT
@@ -34,8 +34,7 @@ start_container(){
 		CONTAINER_ID="$(docker service ls -q -f name=$NAME)"
 		# cleanup
                 echo "Removing running instance of $NAME with container ID $CONTAINER_ID"
-                docker stop $CONTAINER_ID
-                docker rm $CONTAINER_ID
+                docker service rm $CONTAINER_ID
                 echo "Removed $NAME"
 	fi
 	# run the container
@@ -71,3 +70,4 @@ start_network(){
 start_network $NETWORK_NAME $NET_IP
 start_container $AP_CONTAINER $AP_PORT
 start_container $POS_CONTAINER $POS_PORT
+start_container $CLIENT_CONTAINER $CLIENT_PORT

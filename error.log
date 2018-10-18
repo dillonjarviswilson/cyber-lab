@@ -1449,3 +1449,304 @@ DEBUG:file:attempting to connect to: 11c803e4-9297-494e-8776-96ed3535c0b6
 INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:02:41] "GET /connect?s=11c803e4-9297-494e-8776-96ed3535c0b6&c=1 HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:02:41] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
 INFO:werkzeug:127.0.0.1 - - [18/Oct/2018 14:02:41] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4101/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
+DEBUG:file:Debug FILE
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 306-412-158
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://127.0.0.1:4100/ (Press CTRL+C to quit)
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://0.0.0.0:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:15:50] "GET / HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:15:55] "GET /nee HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:15:58] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 1a8b5760-1f80-47fb-8e36-584a9a2ea56c
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:15:59] "GET /connect?s=1a8b5760-1f80-47fb-8e36-584a9a2ea56c&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:15:59] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:15:59] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://0.0.0.0:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://0.0.0.0:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:18:55] "GET / HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:18:58] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 2a676b8d-3847-4e66-9b8b-3ab5463e15df
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:18:58] "GET /connect?s=2a676b8d-3847-4e66-9b8b-3ab5463e15df&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:18:58] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:18:58] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 2
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:04] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 82eb8934-246b-497b-ac2a-91c1e60bb718
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:04] "GET /connect?s=82eb8934-246b-497b-ac2a-91c1e60bb718&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 3
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:06] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 366d8597-45b6-4230-8d92-417efb30c36c
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:06] "GET /connect?s=366d8597-45b6-4230-8d92-417efb30c36c&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:06] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:06] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://0.0.0.0:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 366d8597-45b6-4230-8d92-417efb30c36c
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:25] "GET /connect?s=366d8597-45b6-4230-8d92-417efb30c36c&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:25] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:25] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:29] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: cb489161-35e3-4fa3-8559-7f0aaabbcad1
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:29] "GET /connect?s=cb489161-35e3-4fa3-8559-7f0aaabbcad1&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 2
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:30] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 48631d5b-6924-44c7-9344-a8d40572c18e
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:30] "GET /connect?s=48631d5b-6924-44c7-9344-a8d40572c18e&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:30] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:30] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 3
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:37] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 05601974-6b3e-4468-b3aa-3f7e9da81a80
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:37] "GET /connect?s=05601974-6b3e-4468-b3aa-3f7e9da81a80&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 4
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:37] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 79a45adc-5ef8-43a6-8bb1-2a47f64e9358
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:37] "GET /connect?s=79a45adc-5ef8-43a6-8bb1-2a47f64e9358&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:37] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:38] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 5
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:41] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: d671e22b-3a51-4dc7-a286-fc33c325ba08
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:41] "GET /connect?s=d671e22b-3a51-4dc7-a286-fc33c325ba08&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:41] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:41] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 6
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:46] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 759e2088-a58a-42a9-b8fb-c8b87cd0796e
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:46] "GET /connect?s=759e2088-a58a-42a9-b8fb-c8b87cd0796e&c=1 HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 7
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:47] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 688b0c88-c0a7-46cf-8561-b66c1f9a2641
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:47] "GET /connect?s=688b0c88-c0a7-46cf-8561-b66c1f9a2641&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:47] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:19:47] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://0.0.0.0:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://0.0.0.0:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:22:40] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: a5724b6a-e309-4bef-a86c-ac0dac5d4432
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:22:40] "GET /connect?s=a5724b6a-e309-4bef-a86c-ac0dac5d4432&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:22:40] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.148 - - [18/Oct/2018 13:22:40] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:25:09] "GET / HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:25:09] "GET /favicon.ico HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 2
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:25:16] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: ec7f802b-43d7-4c7e-8321-ddbc8d0e419c
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:25:16] "GET /connect?s=ec7f802b-43d7-4c7e-8321-ddbc8d0e419c&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:25:16] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:25:16] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://0.0.0.0:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:26:17] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: a55abb24-6fa1-400e-9c7a-a40bc1a8e4a5
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:26:17] "GET /connect?s=a55abb24-6fa1-400e-9c7a-a40bc1a8e4a5&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:26:17] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:26:17] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 2
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:26:58] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 171af669-37af-45c0-9109-dbcfee81c83a
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:26:58] "GET /connect?s=171af669-37af-45c0-9109-dbcfee81c83a&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:26:58] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:26:58] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://0.0.0.0:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:31:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:31:16] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:31:16] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:31:21] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: f4787ac1-f6c6-43c5-9a22-b45e2273a981
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:31:21] "GET /connect?s=f4787ac1-f6c6-43c5-9a22-b45e2273a981&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:31:21] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:31:22] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:31:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:31:45] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:31:45] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 2
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:31:49] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 3fa226a6-d6d5-4a28-8058-d88bc2a31403
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:31:50] "GET /connect?s=3fa226a6-d6d5-4a28-8058-d88bc2a31403&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:31:50] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:31:50] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://0.0.0.0:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://0.0.0.0:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:38:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:38:53] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:38:53] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:38:58] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 4c3c5db7-c6db-4de6-aa4c-0f9da0ecc233
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:38:58] "GET /connect?s=4c3c5db7-c6db-4de6-aa4c-0f9da0ecc233&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:38:58] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:38:58] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://0.0.0.0:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 4c3c5db7-c6db-4de6-aa4c-0f9da0ecc233
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:39:28] "GET /connect?s=4c3c5db7-c6db-4de6-aa4c-0f9da0ecc233&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:39:28] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:39:28] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:39:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:39:31] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:39:32] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:39:37] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 6cf9581d-5686-4434-bc28-cdd71e576ca3
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:39:37] "GET /connect?s=6cf9581d-5686-4434-bc28-cdd71e576ca3&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:39:37] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:39:37] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 2
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:40:03] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 51e939e2-3f30-4ed8-be3d-c8d2ac09bbc1
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:40:03] "GET /connect?s=51e939e2-3f30-4ed8-be3d-c8d2ac09bbc1&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:40:03] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:40:03] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://0.0.0.0:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:41:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:41:48] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:41:48] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:41:53] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: d1dcba65-359d-4eee-bf3b-3368b313bd7b
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:41:53] "GET /connect?s=d1dcba65-359d-4eee-bf3b-3368b313bd7b&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:41:53] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [18/Oct/2018 13:41:53] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://0.0.0.0:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
