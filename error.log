@@ -1750,3 +1750,94 @@ INFO:werkzeug: * Restarting with stat
 DEBUG:file:Debug FILE
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 261-644-135
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://0.0.0.0:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:13:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:13:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:13:11] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:13:20] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 5dc116d4-7ca3-4c50-a3ae-4c8cd13975be
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:13:21] "GET /connect?s=5dc116d4-7ca3-4c50-a3ae-4c8cd13975be&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:13:25] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://0.0.0.0:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:14:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:14:30] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:14:35] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: bad3aa92-034a-4725-9a80-ca4737e33a4b
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:14:35] "GET /connect?s=bad3aa92-034a-4725-9a80-ca4737e33a4b&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:14:35] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:14:36] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 2
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:15:14] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: b3a402be-fa5a-43d8-a709-088290653ffe
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:15:15] "GET /connect?s=b3a402be-fa5a-43d8-a709-088290653ffe&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:15:17] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.59 - - [19/Oct/2018 09:22:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.59 - - [19/Oct/2018 09:22:17] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.59 - - [19/Oct/2018 09:22:17] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.59 - - [19/Oct/2018 09:22:18] "GET /favicon.ico HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 3
+INFO:werkzeug:129.11.145.59 - - [19/Oct/2018 09:22:24] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 7dc18d62-b104-4ed0-9d97-491fdb3d74df
+INFO:werkzeug:129.11.145.59 - - [19/Oct/2018 09:22:26] "GET /connect?s=7dc18d62-b104-4ed0-9d97-491fdb3d74df&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.59 - - [19/Oct/2018 09:22:27] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 4
+INFO:werkzeug:129.11.145.59 - - [19/Oct/2018 09:25:39] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 98333d6e-c623-4605-9b40-53895ed6f10a
+INFO:werkzeug:129.11.145.59 - - [19/Oct/2018 09:25:39] "GET /connect?s=98333d6e-c623-4605-9b40-53895ed6f10a&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.59 - - [19/Oct/2018 09:25:40] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 5
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:50:26] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 76b2d72a-e551-49f9-9894-3ea25f08c186
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:50:26] "GET /connect?s=76b2d72a-e551-49f9-9894-3ea25f08c186&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:50:26] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:50:26] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:Debug FILE
+INFO:werkzeug: * Running on http://0.0.0.0:4100/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 261-644-135
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:55:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:55:38] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:55:38] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:55:43] "GET /new HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 7bc9c625-1c94-47ac-9e29-4bd3598bad49
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:55:43] "GET /connect?s=7bc9c625-1c94-47ac-9e29-4bd3598bad49&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:55:43] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:55:43] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 7bc9c625-1c94-47ac-9e29-4bd3598bad49
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:57:52] "GET /connect?s=7bc9c625-1c94-47ac-9e29-4bd3598bad49&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 7bc9c625-1c94-47ac-9e29-4bd3598bad49
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:57:53] "GET /connect?s=7bc9c625-1c94-47ac-9e29-4bd3598bad49&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 7bc9c625-1c94-47ac-9e29-4bd3598bad49
+INFO:werkzeug:129.11.145.137 - - [19/Oct/2018 09:58:57] "GET /connect?s=7bc9c625-1c94-47ac-9e29-4bd3598bad49&c=1 HTTP/1.1" 200 -

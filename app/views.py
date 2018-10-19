@@ -116,7 +116,7 @@ def new():
     db.session.commit()
 
 
-    subprocess.call(['./run.sh', str(new_session.user_number)])
+    subprocess.call(['./start.sh', str(new_session.user_number)])
 
     logfile.debug("Added session: " + str(new_session.id))
  
