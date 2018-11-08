@@ -1,4 +1,5 @@
 {
     "python.linting.pylintEnabled": false,
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "black",
+    "python.pythonPath": "/usr/local/Cellar/python/2.7.14_3/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python"
 }

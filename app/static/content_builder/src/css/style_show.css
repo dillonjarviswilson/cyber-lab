@@ -1,0 +1,11 @@
+.tools {
+    display: none;
+}
+
+.editable {
+    pointer-events: none;
+}
+
+span.box-title {
+    cursor: default;
+}

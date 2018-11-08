@@ -1,0 +1,32 @@
+{% extends "base.html" %} {% block content %}
+
+<form action="" method="post" novalidate>
+<div >
+    {{ form.hidden_tag() }}
+    <p>
+        {{ form.title.label }}<br>
+        {{ form.title(size=32) }}
+        {% for error in form.title.errors %}
+        <span class="form_error">{{ error }}</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.category.label }}<br>
+        {{ form.category(size=32) }}
+        {% for error in form.category.errors %}
+        <span class="form_error">{{ error }}</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.description.label }}<br>
+        {{ form.description(size=32) }}
+        {% for error in form.description.errors %}
+        <span class="form_error">{{ error }}</span>
+        {% endfor %}
+    </p>
+    <p>{{ form.submit() }}</p>
+</div>  
+</form>
+
+
+{% endblock %}

@@ -1,0 +1,104 @@
+{% extends "base.html" %} {% block content %}
+
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='content_builder/src/css/style_show.css') }}">
+
+
+    <button class="btn btn-success" onclick="runActivity('start')">Run Activity</button>
+    <button class="btn btn-warning" onclick="runActivity('stop')">Stop Activity</button>
+    <button class="btn btn-danger" onclick="deleteActivity('delete')">Delete Activity</button>
+
+    <button class="btn btn-info x-wide">
+            Add container configuration
+            <div class="large-icon"><i class="fas fa-plus"></i></div>
+    </button>
+
+
+   
+
+
+    {% if activity_content %}
+        <!-- blocks will go in here, leave empty -->
+    <div id="viewer">
+        {{ activity_content | safe}}
+    </div>
+    {% else %}
+        <button class="btn btn-info x-wide lighter" onclick="createContentPage('{{activity_id}}')">
+            Add lesson content
+            <div class="large-icon"><i class="fas fa-plus"></i></div>
+        </button>
+    {% endif %}
+
+
+<script>
+
+    $( "p" ).each(function( index ) {
+       $( this ).prop('contenteditable', false );
+    });
+
+    $( ".upload_file.btn" ).each(function( index ) {
+       $( this ).remove()
+    });
+
+    function createContentPage(id_number){
+        window.location = '/staff/create_content/'+id_number;
+    }
+
+    function capitaliseFirstLetter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
+    function runActivity(action, redirect){
+         $.post( "/staff/action", { activity_id: '{{ activity_id }}',
+                                    activity_action: action
+                    })
+            .success(function(response_object) {
+                //dialog message
+                $.confirm({
+                    title: capitaliseFirstLetter(action) + ' Activity',
+                    icon: response_object.icon,
+                    content: response_object.content,
+                    type: response_object.color,
+                    theme: 'supervan',
+                    buttons: {
+                        close: {
+                            btnClass: 'btn-' + response_object.color,
+                            action: function () { 
+                                if (redirect != null){
+                                    window.location = redirect;
+                                }
+                            }
+                        }
+                    }
+                });
+            })
+            .fail(function() {
+                alert( "error" );
+            }); 
+    }
+
+    function deleteActivity(action){
+         $.confirm({
+                    title: 'Confirm Delete Activity',
+                    icon: "fa fa-trash-alt",
+                    content: "Are you sure you wish to delete this activity? The action cannot be undone.",
+                    type: "red",
+                    theme: 'supervan',
+                    buttons: {
+                        confirm: {
+                            btnClass: 'btn-red',
+                            action: function () {
+                                runActivity(action, '/staff')
+                            }
+                        },
+                        cancel: {
+                        }
+                    }
+                }); 
+    }
+
+
+    
+   
+</script>
+{% endblock %}

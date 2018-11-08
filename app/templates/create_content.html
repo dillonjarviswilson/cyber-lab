@@ -1,0 +1,88 @@
+{% extends "base.html" %} {% block content %}
+
+
+<div class="main-tools">
+    <button class="create_box box_basic"><i class="fas fa-plus-square"></i></button>
+    <button class="create_box box_obj"><i class="fas fa-star"></i></button>
+    <button class="create_box box_file"><i class="fas fa-folder"></i></button>
+</div>
+
+<!-- blocks will go in here, leave empty -->
+<div id="viewer"></div>
+
+
+<button class="btn btn-success wide" onclick="AddActivityContent('{{activity_id}}')">
+    Save Content
+    <div class="large-icon"><i class="fas fa-check"></i></div>
+</button>
+
+
+<!-- Medium editor & Sortable lib -->
+<script src="{{ url_for('static', filename='content_builder/bower_components/medium-editor/dist/js/medium-editor.js') }} "></script>
+<script src="{{ url_for('static', filename='content_builder/bower_components/Sortable/Sortable.js') }} "></script>
+
+<!-- Builder js -->
+<script src="{{ url_for('static', filename='content_builder/src/js/builder.js') }}"></script>
+
+
+<script>
+
+
+    function AddActivityContent(id){
+        $.confirm({
+                    title: 'Confirm Save Activity Content',
+                    icon: "fa fa-question-circle",
+                    content: "Save & Submit Activity",
+                    type: "green",
+                    theme: 'supervan',
+                    buttons: {
+                        save: {
+                            btnClass: 'btn-green',
+                            action: function () {
+                                SubmitActivity('/staff/activity/' + id)
+                            }
+                        },
+                        cancel: {
+                        }
+                    }
+                }); 
+
+
+
+         
+    }
+
+    function SubmitActivity(redirect){
+         $.post( "/staff/add_content", { activity_id: '{{ activity_id }}',
+                                    content: $( "#viewer" ).html()
+                    })
+            .success(function(response_object) {
+                //dialog message
+                $.confirm({
+                    title: 'Saved',
+                    icon: response_object.icon,
+                    content: response_object.content,
+                    type: response_object.color,
+                    theme: 'supervan',
+                    buttons: {
+                        close: {
+                            btnClass: 'btn-' + response_object.color,
+                            action: function () { 
+                                if (redirect != null){
+                                    window.location = redirect;
+                                }
+                            }
+                        }
+                    }
+                });
+            })
+            .fail(function() {
+                alert( "error" );
+            }); 
+    }
+
+
+    
+   
+</script>
+{% endblock %}

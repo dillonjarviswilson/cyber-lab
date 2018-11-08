@@ -1,10 +1,12 @@
 from app import app, db, models, setup
 from flask import render_template, url_for, redirect, flash, request
 from datetime import datetime
-from app.models import Session
+from app.models import Session, Activity
+from app.forms import NewActivityForm
 from sqlalchemy import desc, tuple_
 import logging, logging.config, uuid
 import atexit
+from flask import jsonify
 import subprocess
 
 logfile    = logging.getLogger('file')
@@ -121,12 +123,219 @@ def new():
     logfile.debug("Added session: " + str(new_session.id))
  
     query = str("/connect?" + "s=" + new_session.unique_identifier + "&c=1")
+
     return redirect(query)
 
 
 
 @app.route('/', methods=['GET'])
 def home():
-	return render_template('root.html',
-                                title='Weclome')
 
+    activities = Activity.query.filter_by(running=True).all()
+    for a in activities:
+        a.content = ""
+        a.container = ""
+
+    if len(activities) > 0:
+        return render_template('root.html',
+                                activites=activities)
+    else:
+        return render_template('404.html',
+                                message="There are no available activites to run right now. Ask your teacher to add some.")
+
+
+
+@app.route('/staff', methods=['GET'])
+def staff():
+
+    activities = Activity.query.all()
+
+    for a in activities:
+        print(a)
+        a.content = ""
+        a.container = ""
+
+    return render_template('staff.html',
+                            activities=activities)
+
+
+
+@app.route('/staff/create', methods=['GET', 'POST'])
+def staff_create_new():
+
+    form = NewActivityForm()
+    if form.validate_on_submit():
+        flash('New activity created {}'.format(
+            form.title.data))
+
+        dateNow = datetime.now()
+
+        new_activity = models.Activity(
+                                running = False,
+                                title = form.title.data,
+                                category = form.category.data,
+                                has_content = False,
+                                has_containers = False,
+                                time_created = dateNow,
+                                content = "",
+                                config = "",
+                                description = form.description.data,
+                                enabled = False,
+                                is_ready = False,
+                                number_of_students = 0,
+                                number_of_containers = 0)
+
+        #add and commit the db changes
+        db.session.add(new_activity)
+        db.session.commit()
+
+        print("Added activity")
+
+        return redirect('/staff')
+
+    return render_template('create_new.html', title='Create New', form=form)
+
+
+
+@app.route('/staff/activity/<int:activity_id>', methods=['GET'])
+def staff_edit_activity(activity_id):
+
+    activity = Activity.query.get(activity_id)
+
+
+    if activity != None:
+
+        if activity.content != "":
+            activity_content = activity.content
+        else:
+            activity_content = False
+
+        return render_template('control_activity.html', 
+                                title = activity.title,
+                                activity_id = activity.id,
+                                activity_content = activity_content)
+
+    else:
+        return render_template('404.html', 
+                            message="Could not find the activity.")
+
+  
+
+
+
+@app.route('/staff/action', methods = ['POST'])
+def staff_action():
+    id_number = request.form['activity_id']
+    action = request.form['activity_action']
+
+    activity = Activity.query.get(id_number)
+    
+    if activity != None:
+        alert_icon = ""
+        alert_color = ""
+        alert_message = ""
+
+        if action == "delete":
+            db.session.delete(activity)
+            db.session.commit()
+
+            #not a valid start/stop action
+            alert_icon = "fa fa-exclamation-circle"
+            alert_color = "red"
+            alert_message = "The activity has been deleted."
+        
+
+
+        elif activity.has_containers != True:
+            #inform the user
+            alert_icon = "fa fa-exclamation-circle"
+            alert_color = "orange"
+            alert_message = "The activity has no container model. You need to define one before running."
+        elif activity.has_content != True:
+            #inform the user
+            alert_icon = "fa fa-exclamation-circle"
+            alert_color = "orange"
+            alert_message = "The activity has no lesson content. You need to create if before running."
+        elif activity.enabled == False:
+            #inform the user
+            alert_icon = "fa fa-exclamation-circle"
+            alert_color = "red"
+            alert_message = "The activity has been disabled, enable it first."
+        else:
+            if action == "start":
+                if activity.running == True:
+                    #inform the user
+                    alert_icon = "fa fa-exclamation-circle"
+                    alert_color = "red"
+                    alert_message = "The activity is already running."
+                else:
+                    alert_icon = "fa fa-check"
+                    alert_color = "green"
+                    alert_message = "The activity is running and visible to students."
+            elif action == "stop":
+                if activity.running == False:
+                    #inform the user
+                    alert_icon = "fa fa-exclamation-circle"
+                    alert_color = "red"
+                    alert_message = "The activity is not running."
+                else:
+                    alert_icon = "fa fa-check"
+                    alert_color = "green"
+                    alert_message = "The activity has been stopped and is not visible to students."
+            else:
+                #not a valid start/stop action
+                alert_icon = "fa fa-exclamation-circle"
+                alert_color = "red"
+                alert_message = "Not a valid operation on activity"
+        
+        return jsonify(icon=alert_icon,
+                        color=alert_color,
+                        content=alert_message)
+
+    else:
+        return render_template('404.html', 
+                            message="Could not find activity.")
+
+
+
+@app.route('/staff/create_content/<int:id_number>', methods = ['GET'])
+def staff_create_content(id_number):
+    activity = Activity.query.get(id_number)
+    if activity != None:
+        return render_template('create_content.html', 
+                                title='Create Content',
+                                activity_id = activity.id)
+    else:
+        return render_template('404.html', 
+                            message="Could not find activity.")
+
+
+
+
+@app.route('/staff/add_content', methods = ['POST'])
+def staff_submit_content():
+    id_number = request.form['activity_id']
+    content = request.form['content']
+
+    activity = Activity.query.get(id_number)
+
+    alert_icon = ""
+    alert_color = ""
+    alert_message = ""
+
+    if activity != None:     
+        activity.content = content
+
+        db.session.commit()
+
+        alert_icon = "fa fa-check"
+        alert_color = "green"
+        alert_message = "The activity content has been saved."
+
+        return jsonify(icon=alert_icon,
+                        color=alert_color,
+                        content=alert_message)
+
+    else:
+        return render_template('404.html', 
+                            message="Could not find activity.")
