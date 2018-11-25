@@ -5,10 +5,12 @@ from app.models import Session, Activity, Container, PortTable
 from app.forms import NewActivityForm, NewContainerForm
 from sqlalchemy import desc, tuple_
 import docker
+from docker.utils import create_host_config
 import logging, logging.config, uuid
 import atexit
 from flask import jsonify
 import subprocess
+import json
 
 
 logfile    = logging.getLogger('file')
@@ -16,31 +18,39 @@ logconsole = logging.getLogger('console')
 
 logfile.debug("Debug FILE")
 
-DockerClient = docker.APIClient(base_url='tcp://127.0.0.1:1234')
+DockerClient = docker.APIClient(base_url='unix:///var/run/docker.sock')
+Client = docker.from_env()
 sessionTracker = {}
 
 
 def get_full_url(port):
-    return str("http://ssrc-cluster.wireless.leeds.ac.uk:" + str(port))
+    return str("localhost:" + str(port))
 
 def exit_handler():
     print("\n\nShutting down...")
 
-    if Session:
-        allSessions = Session.query.all()
+    allSessions = Session.query.all()
 
-        if allSessions != None:
-            for s in allSessions:
-                print("Call to close: " + str(s.unique_identifier))
+    if allSessions != None:
+        for s in allSessions:
+            print("Call to close: " + str(s.unique_identifier))
+            
+            for key,val in sessionTracker.items():
+                lst = val
+                if lst != None:
+                    for c in lst:
+                        c.remove()
+                        print("Removed")
 
-                container_instance_list = sessionTracker[s.unique_identifier]
-                
-                for c in container_instance_list:
-                    c.remove()
-                    print("Removed")
+            db.session.delete(s)
+        db.session.commit()
 
-                db.session.delete(s)
-                db.session.commit()
+    all_rows = PortTable.query.all()
+
+    for r in all_rows:
+        db.session.delete(r)
+    db.session.commit()
+    
 
 
 atexit.register(exit_handler)
@@ -56,43 +66,25 @@ def main_session():
     container = request.args.get('c')
 
     if session_id == None:
-        return render_template('not_found.html',
-                                title='Specify a session',
-                                session_id=session_id)
+        return render_template('404.html',
+                                message='Specify a session')
 
     if container == None:
-        return render_template('not_found.html',
-                                title='specify container ref',
-                                session_id=session_id)
+        return render_template('404.html',
+                                message='No container ID specified')
+
+    ses = Session.query.filter_by(unique_identifier=session_id).first()
+    #no session found
+    if ses == None:
+        return render_template('404.html',
+                                message='Session does not exsist')
+
 
     logfile.debug("attempting to connect to: " + str(session_id))
+    container_list = PortTable.query.filter_by(session_id=session_id)
 
-    session_to_show = Session.query.filter_by(unique_identifier=session_id).first()
-
-    if session_to_show != None:
-        c = int(container)
-        ref = None
-        if c == 1: ref = session_to_show.ap_address
-        elif c==2: ref = session_to_show.client_address
-        elif c==3: ref = session_to_show.pos_address
-        else:
-            return render_template('not_found.html',
-                                title='Invalid Continer ref',
-                                session_id=session_id)
-
-        url_to_show = get_full_url(ref)
-
-        return render_template('connection.html',
-                            title='AP Terminal',
-                            url=url_to_show,
-                            url_client=get_full_url(session_to_show.client_address),
-                            url_ap=get_full_url(session_to_show.ap_address),
-                            url_pos=get_full_url(session_to_show.pos_address))
-    else:
-        #no session found
-        return render_template('not_found.html',
-                                title='Session not found',
-                                session_id=session_id)
+    return render_template('connection.html',
+                        containers=container_list)
     
     
 
@@ -111,70 +103,78 @@ def new():
         return render_template('404.html', message="Specify activity ID")
 
     activity = Activity.query.get(aid)
-
     if activity == None:
         return render_template('404.html', message="Invalid activity ID")
-
     if activity.running == False:
         return render_template('404.html', message="Activity not available")
 
-    #activity must be avail to students so go ahead and create session
 
-    #ports_list, desc_list, container_id, container_ref = get_ports_list(activity.id)
-    container_list, num_ports = get_list(activity.id)
-    
-    print("Number of ports: {}".format(num_ports))
-    print(container_list)
-    
-    for cont in container_list:
-        print(cont.port_list_internal)
-        for int_port in cont.port_list_internal:
+
+    container_string_list = activity.container_list.split(",")
+    container_instance_list = []
+ 
+    for i in container_string_list:
+        container = Container.query.get(i)
+
+        print("Container: {} \tports: {}".format(container.name, str(container.expose_ports)))
+
+        ports = container.expose_ports.split(",")
+        number_of_ports = len(ports)
+        port_dictionary = {}
+        int_port_list = []
+
+
+        for internal_port in ports:
+
             ext_port = get_avail_port()
-            print(cont.container.name)
             if ext_port == False: return render_template('404.html', message="Can not run, max capacity reached")
-            
-            new_entry = models.PortTable(
-                            session_id=str(session_id),
-                            friendly_name=str(cont.desc),
-                            external_port=ext_port,
-                            internal_port=int_port,
-                            container_id=cont.container.id)
+                
+            desc = "Port {} on container {}".format(internal_port, container.name)
 
-            cont.port_list_external.append(ext_port)
+            port_dictionary[int(internal_port)] = int(ext_port)
+            int_port_list.append(int(internal_port))
+
+            new_entry = models.PortTable(
+                                session_id=str(session_id),
+                                friendly_name=desc,
+                                external_port=ext_port,
+                                internal_port=internal_port,
+                                container_id="",
+                                url=get_full_url(ext_port))
 
             db.session.add(new_entry)
             db.session.commit()
 
-            print("Port {} routed to {} on container".format(ext_port, int_port))
 
-    container_instance_list = []
-    for cont in container_list:
-        print("Call to run container")
-        portDict = {}
-        
-        print(portDict)
-        print(cont.port_list_internal)
+        for line in DockerClient.pull(str(container.image), stream=True):
+           print(line)
 
-        for x in range(0, len(cont.port_list_internal)):
-            portDict[cont.port_list_external[x]] = cont.port_list_internal[x]
-        
-        print(portDict)
+        container_config = DockerClient.create_host_config(
+            port_bindings=port_dictionary)
 
         docker_container_instance = DockerClient.create_container(
-                cont.container.image, ports=cont.port_list_internal,
-                host_config=docker.utils.create_host_config(port_bindings=str(portDict))
+                image=str(container.image), 
+                ports=int_port_list,
+                host_config=container_config,
+                detach=True,
         )
 
-        container_instance_list.append(docker_container_instance)
-                
-        print("Container Name: {} \tInternal Port: {}\t External Port: {}".format())
+        print("NAME: {}".format(docker_container_instance['Id']))
+
+        DockerClient.start(docker_container_instance['Id'])
+
+        container_instance_list.append(docker_container_instance)      
+        print("Container Name: {} \tPorts: {}".format(
+            str(container.image),
+            str(port_dictionary)
+        ))
     
 
     new_session = models.Session(unique_identifier=str(session_id),
-                                user_number=str(new),
+                                user_number="",
                                 time_created=dateNow,
                                 activity_id=activity.id,
-                                number_of_ports=num_ports)
+                                number_of_ports=0)
 
     #add and commit the db changes
     db.session.add(new_session)
@@ -189,6 +189,12 @@ def new():
     query = str("/connect?" + "s=" + new_session.unique_identifier + "&c=1")
 
     return redirect(query)
+
+
+
+
+
+
 
 
 
@@ -212,7 +218,6 @@ def staff():
     activities = Activity.query.all()
 
     for a in activities:
-        print(a)
         a.content = ""
         a.container = ""
 
@@ -249,8 +254,6 @@ def staff_create_new():
         #add and commit the db changes
         db.session.add(new_activity)
         db.session.commit()
-
-        print("Added activity")
 
         return redirect('/staff')
 
@@ -493,8 +496,6 @@ def staff_create_container():
         db.session.add(new_container)
         db.session.commit()
 
-        print("Added Container")
-
         return render_template('message.html', 
                             message="Added Container")
 
@@ -514,28 +515,19 @@ def get_list(activity_id):
     activity = Activity.query.get(activity_id)
     container_list = activity.container_list.split(",")
 
-    print("activity container list {}".format(container_list))
+    #print("activity container list {}".format(container_list))
 
     returning_cont_list = []
     num_ports = 0
 
-    for c in container_list:
-        print("container:".format(c))
-        c_cont = Container.query.get(int(c))
-        print("##### {}".format(int(c_cont.id)))
-        if c_cont != None:
-            new = ContainerObj(c_cont)
-            print(new.container.expose_ports)
-            p_l = new.container.expose_ports.split(",")
-            print("list of ports: {}".format(p_l))
-            for p in p_l:
-                new.port_list_internal.append(int(p))
-                new.desc = "Port {} on Container {}".format(p, c_cont.name)
-                print(new.desc)
-                num_ports += 1
-            returning_cont_list.append(new)
+    for i in container_list:
+        container = Container.query.get(i)
 
-        print("container ports: {}".format(returning_cont_list[0].port_list_internal))
+        print("Container: {} \tports: {}".format(container.name, str(container.expose_ports)))
+
+        ports = container.expose_ports.split(",")
+        
+        print(ports)
 
     return returning_cont_list, num_ports
 
@@ -545,13 +537,13 @@ def get_avail_port():
     # search through from 4000 to 4999 for avail ports
     # n.b. 5000 is exclusive
 
-    port_possible = list(range(4000, 5000))
+    port_possible = list(range(4001, 5000))
     port_table = PortTable.query.all()
-    print("Searching...")
+
     for a in port_table:
         port_possible.remove(a.external_port)
-
-    if port_possible[0] != None:
+    
+    if len(port_possible) != 0:
         return port_possible[0]
     else:
         return False

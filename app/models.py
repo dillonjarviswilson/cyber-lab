@@ -5,9 +5,9 @@ class Session(db.Model):
     user_number = db.Column(db.Integer)
     unique_identifier = db.Column(db.String(300))
     time_created = db.Column(db.DateTime)
-    activity_id = db.Column(db.Integer, db.ForeignKey('activity.id'),
-        nullable=False)
+    activity_id = db.Column(db.Integer, db.ForeignKey('activity.id'), nullable=False)
     number_of_ports = db.Column(db.Integer)
+    container_id_list = db.Column(db.String(5000))
 
 
 class PortTable(db.Model):
@@ -19,6 +19,7 @@ class PortTable(db.Model):
     friendly_name = db.Column(db.String(300))
     internal_port = db.Column(db.Integer)
     external_port = db.Column(db.Integer)
+    url = db.Column(db.String(300))
 
 
 class Activity(db.Model):

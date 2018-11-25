@@ -10665,3 +10665,2176 @@ INFO:werkzeug:127.0.0.1 - - [22/Nov/2018 17:12:41] "GET /new?__debugger__=yes&cm
 INFO:werkzeug:127.0.0.1 - - [22/Nov/2018 17:12:41] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [22/Nov/2018 17:12:41] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [22/Nov/2018 17:12:41] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:15:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:15:56] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:15:56] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:15:56] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:15:56] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:15:56] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:15:56] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:15:57] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:16:00] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:16:01] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:16:02] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:16:02] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:16:02] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:16:02] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:16:02] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:16:02] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:16:02] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:21:12] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:21:12] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:21:12] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:21:12] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:21:13] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:21:13] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:21:13] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:23:20] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:23:20] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:23:20] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:23:20] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:23:20] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:23:20] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:23:20] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:24:21] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:24:21] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:24:21] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:24:21] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:24:22] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:24:22] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:24:22] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:25:03] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:25:03] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:25:03] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:25:03] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:25:04] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:25:04] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:25:04] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:25:41] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:25:41] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:25:41] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:25:41] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:25:41] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:25:41] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:25:41] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Projects/cyber-lab/db_repository...
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Projects/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Projects/cyber-lab/db_repository...
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Projects/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Projects/cyber-lab/app.db)
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:27:04] "GET /new?aid=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:27:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:27:06] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:27:07] "GET /staff/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:27:12] "POST /staff/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:27:12] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:27:13] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:27:13] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:27:14] "GET /staff/create_config/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:27:14] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:27:15] "GET /staff/create_container HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:27:34] "POST /staff/create_container HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:27:35] "GET /staff/create_config/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:27:39] "GET /staff/create_container HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:21] "POST /staff/create_container HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:23] "GET /staff/create_config/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:29] "POST /staff/add_configuration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:30] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:31] "GET /staff/create_content/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:31] "GET /static/content_builder/src/js/builder.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:31] "GET /static/content_builder/bower_components/medium-editor/dist/js/medium-editor.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:31] "GET /static/content_builder/bower_components/Sortable/Sortable.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:36] "POST /staff/add_content HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:37] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:48] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:49] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:49] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:51] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:51] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:51] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:51] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:51] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:51] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:28:51] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:29:31] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:29:31] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:29:31] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:29:31] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:29:31] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:29:31] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:29:31] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:30:15] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:30:15] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:30:15] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:30:15] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:30:15] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:30:15] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:30:15] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:35:21] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:35:23] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:35:23] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:35:23] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:35:23] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:35:23] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:35:23] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:35:23] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:36:39] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:36:39] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:36:39] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:36:39] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:36:40] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:36:40] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:36:40] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:36:41] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:36:41] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:36:41] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:36:41] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:36:41] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:36:41] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:36:41] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:Debug FILE
+DEBUG:file:Debug FILE
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:44:10] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:44:10] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:44:10] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:44:10] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:44:10] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:44:10] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:44:10] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:45:04] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:45:04] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:45:04] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:45:04] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:45:05] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:45:05] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:45:05] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:46:46] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:46:46] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:46:46] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:46:46] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:46:46] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:46:46] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:46:46] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:07] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:07] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:07] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:07] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:07] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:07] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:07] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:33] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:33] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:33] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:33] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:34] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:34] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:34] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:1234
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:57] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:57] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:57] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:57] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:57] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:57] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:47:57] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 404 42
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:49:08] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:49:08] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:49:08] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:49:08] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:49:08] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:49:08] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:49:08] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:49:51] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 404 42
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:49:53] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:49:53] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:49:53] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:49:53] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:49:53] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:49:53] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=18.04&fromImage=ubuntu HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:54:33] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:54:33] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:54:33] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:54:33] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:54:34] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:54:34] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:54:34] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=18.04&fromImage=ubuntu HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:54:49] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:54:49] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:54:49] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:54:49] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:54:49] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:54:49] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:54:49] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=18.04&fromImage=ubuntu HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:56:47] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:56:47] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:56:47] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:56:47] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:56:47] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:56:47] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:56:48] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=18.04&fromImage=ubuntu HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:57:32] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:57:32] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:57:32] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:57:32] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:57:32] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:57:32] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:57:32] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=18.04&fromImage=ubuntu HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?fromImage=nginxdemos%2Fhello HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:58:41] "GET /new?aid=1 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 0cbd7279-db3b-4e08-8bad-3feaa7905cab
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:58:41] "GET /connect?s=0cbd7279-db3b-4e08-8bad-3feaa7905cab&c=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:58:41] "GET /connect?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:58:41] "GET /connect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:58:41] "GET /connect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:58:41] "GET /connect?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:58:42] "GET /connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 14:58:42] "GET /connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 0cbd7279-db3b-4e08-8bad-3feaa7905cab
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:06:28] "GET /connect?s=0cbd7279-db3b-4e08-8bad-3feaa7905cab&c=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:06:28] "GET /connect?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:06:28] "GET /connect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:06:28] "GET /connect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:06:28] "GET /connect?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:06:28] "GET /connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:06:28] "GET /connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 0cbd7279-db3b-4e08-8bad-3feaa7905cab
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:06:36] "GET /connect?s=0cbd7279-db3b-4e08-8bad-3feaa7905cab&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 0cbd7279-db3b-4e08-8bad-3feaa7905cab
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:07:52] "GET /connect?s=0cbd7279-db3b-4e08-8bad-3feaa7905cab&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 0cbd7279-db3b-4e08-8bad-3feaa7905cab
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:11:36] "GET /connect?s=0cbd7279-db3b-4e08-8bad-3feaa7905cab&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 0cbd7279-db3b-4e08-8bad-3feaa7905cab
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:11:38] "GET /connect?s=0cbd7279-db3b-4e08-8bad-3feaa7905cab&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 0cbd7279-db3b-4e08-8bad-3feaa7905cab
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:11:44] "GET /connect?s=0cbd7279-db3b-4e08-8bad-3feaa7905cab&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 0cbd7279-db3b-4e08-8bad-3feaa7905cab
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:12:17] "GET /connect?s=0cbd7279-db3b-4e08-8bad-3feaa7905cab&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 0cbd7279-db3b-4e08-8bad-3feaa7905cab
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:13:24] "GET /connect?s=0cbd7279-db3b-4e08-8bad-3feaa7905cab&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 0cbd7279-db3b-4e08-8bad-3feaa7905cab
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:13:36] "GET /connect?s=0cbd7279-db3b-4e08-8bad-3feaa7905cab&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 0cbd7279-db3b-4e08-8bad-3feaa7905cab
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:16:41] "GET /connect?s=0cbd7279-db3b-4e08-8bad-3feaa7905cab&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:16:47] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=18.04&fromImage=ubuntu HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?fromImage=nginxdemos%2Fhello HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:file:Added session: 2
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:16:54] "GET /new?aid=1 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 8b443940-7326-448d-b69e-d783458a95d7
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:16:54] "GET /connect?s=8b443940-7326-448d-b69e-d783458a95d7&c=1 HTTP/1.1" 200 -
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 8b443940-7326-448d-b69e-d783458a95d7
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:20:30] "GET /connect?s=8b443940-7326-448d-b69e-d783458a95d7&c=1 HTTP/1.1" 200 -
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 8b443940-7326-448d-b69e-d783458a95d7
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:23:00] "GET /connect?s=8b443940-7326-448d-b69e-d783458a95d7&c=1 HTTP/1.1" 200 -
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Projects/cyber-lab/db_repository...
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Projects/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Projects/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Projects/cyber-lab/db_repository...
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Projects/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Projects/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Projects/cyber-lab/db_repository...
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Projects/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Projects/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Projects/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Projects/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Projects/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Projects/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+INFO:migrate.versioning.api:0 -> 1... 
+INFO:migrate.versioning.api:done
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Projects/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Projects/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Projects/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Projects/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Projects/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Projects/cyber-lab/app.db)
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 8b443940-7326-448d-b69e-d783458a95d7
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:26:40] "GET /connect?s=8b443940-7326-448d-b69e-d783458a95d7&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 8b443940-7326-448d-b69e-d783458a95d7
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:27:25] "GET /connect?s=8b443940-7326-448d-b69e-d783458a95d7&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 8b443940-7326-448d-b69e-d783458a95d7
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:28:08] "GET /connect?s=8b443940-7326-448d-b69e-d783458a95d7&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 8b443940-7326--b69e-d783458a95d7
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:28:11] "GET /connect?s=8b443940-7326--b69e-d783458a95d7&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:31:13] "GET /connect?s=8b443940-7326--b69e-d783458a95d7&c=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:31:13] "GET /connect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:31:13] "GET /connect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:31:13] "GET /connect?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:31:13] "GET /connect?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:31:13] "GET /connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:31:13] "GET /connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:31:23] "GET /connect?s=8b443940-7326--b69e-d783458a95d7&c=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:31:23] "GET /connect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:31:23] "GET /connect?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:31:23] "GET /connect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:31:23] "GET /connect?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:31:23] "GET /connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:31:23] "GET /connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:32:55] "GET /connect?s=8b443940-7326--b69e-d783458a95d7&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:32:58] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=18.04&fromImage=ubuntu HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?fromImage=nginxdemos%2Fhello HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:05] "GET /new?aid=1 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: d2fe7999-7895-4ba4-a129-fa4c33ce30b1
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:05] "GET /connect?s=d2fe7999-7895-4ba4-a129-fa4c33ce30b1&c=1 HTTP/1.1" 200 -
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:24] "GET /connect?s=d2fe7999-7895-4ba4-a129-fa4c33ce30b1&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:26] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:29] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:30] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:31] "GET /staff/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:33] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:34] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:36] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:37] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:38] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:39] "GET /staff/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:44] "POST /staff/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:44] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:45] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:46] "GET /staff/create_config/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:33:54] "GET /staff/create_container HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:34:11] "POST /staff/create_container HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:34:12] "GET /staff/create_config/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:34:16] "GET /staff/create_container HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:34:20] "GET /staff/create_config/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:34:28] "POST /staff/add_configuration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:34:29] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:34:30] "GET /staff/create_content/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:34:32] "POST /staff/add_content HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:34:33] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:34:34] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:34:35] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:34:37] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?fromImage=nginxdemos%2Fhello HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=18.04&fromImage=ubuntu HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:34:44] "GET /new?aid=1 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 5f2cbc6e-110a-4f86-8e8b-0bb068d7b853
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:34:44] "GET /connect?s=5f2cbc6e-110a-4f86-8e8b-0bb068d7b853&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:41:49] "GET /connect?s=5f2cbc6e-110a-4f86-8e8b-0bb068d7b853&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:41:52] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:41:53] "GET /new?aid=1 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 5302072c-9d59-4021-8517-af336b35c858
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:41:53] "GET /connect?s=5302072c-9d59-4021-8517-af336b35c858&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 5302072c-9d59-4021-8517-af336b35c858
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:43:07] "GET /connect?s=5302072c-9d59-4021-8517-af336b35c858&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:43:10] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:file:Added session: 2
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:43:11] "GET /new?aid=1 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 0d550b62-ed5e-41f6-a2d2-e9d296f28bf3
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:43:11] "GET /connect?s=0d550b62-ed5e-41f6-a2d2-e9d296f28bf3&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:43:59] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:file:Added session: 3
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:44:00] "GET /new?aid=1 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 0dd55aa3-c8bb-4951-9ce8-9741217858eb
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:44:00] "GET /connect?s=0dd55aa3-c8bb-4951-9ce8-9741217858eb&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:46:12] "GET /connect?s=0dd55aa3-c8bb-4951-9ce8-9741217858eb&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:46:13] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:46:13] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:46:13] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:46:13] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:46:13] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:46:13] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:46:13] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:46:13] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:46:43] "GET /new?aid=1 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 9d60539c-5fb9-40d8-9d6b-4a3bd4af4720
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:46:43] "GET /connect?s=9d60539c-5fb9-40d8-9d6b-4a3bd4af4720&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:49:06] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:49:08] "GET /new?aid=1 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: a30d804f-7e68-4647-8c8c-bc338d59f463
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:49:08] "GET /connect?s=a30d804f-7e68-4647-8c8c-bc338d59f463&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:50:31] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:50:32] "GET /new?aid=1 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 2282b1a8-6c99-4bff-96f8-8f4262c929b0
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:50:32] "GET /connect?s=2282b1a8-6c99-4bff-96f8-8f4262c929b0&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:51:40] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:file:Added session: 2
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:51:41] "GET /new?aid=1 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: db99c5cb-dd5c-4b16-bf3a-82ee2d272000
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:51:41] "GET /connect?s=db99c5cb-dd5c-4b16-bf3a-82ee2d272000&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:57:48] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:57:49] "GET /new?aid=1 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: d758dfd5-d413-45bd-b490-ea5cec23f876
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 15:57:49] "GET /connect?s=d758dfd5-d413-45bd-b490-ea5cec23f876&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:14:06] "GET /connect?s=d758dfd5-d413-45bd-b490-ea5cec23f876&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:14:08] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:14:08] "GET /new?aid=1 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: c4bc3351-e7c5-45a7-92f8-8db8db06b024
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:14:08] "GET /connect?s=c4bc3351-e7c5-45a7-92f8-8db8db06b024&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: c4bc3351-e7c5-45a7-92f8-8db8db06b024
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:14:48] "GET /connect?s=c4bc3351-e7c5-45a7-92f8-8db8db06b024&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: c4bc3351-e7c5-45a7-92f8-8db8db06b024
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:14:57] "GET /connect?s=c4bc3351-e7c5-45a7-92f8-8db8db06b024&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:14:58] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:file:Added session: 2
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:14:59] "GET /new?aid=1 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 124c7b25-52b6-49aa-acf6-7fbfae929280
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:14:59] "GET /connect?s=124c7b25-52b6-49aa-acf6-7fbfae929280&c=1 HTTP/1.1" 200 -
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Projects/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Projects/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Projects/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Projects/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Projects/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Projects/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Projects/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Projects/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Projects/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Projects/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Projects/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Projects/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Projects/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Projects/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Projects/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Projects/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Projects/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Projects/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Projects/cyber-lab/db_repository/versions/002_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Projects/cyber-lab/db_repository/versions/002_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Projects/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+INFO:migrate.versioning.api:1 -> 2... 
+INFO:migrate.versioning.api:done
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Projects/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Projects/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Projects/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Projects/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Projects/cyber-lab/db_repository/versions/002_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Projects/cyber-lab/db_repository/versions/002_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Projects/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Projects/cyber-lab/app.db)
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:19:01] "GET /connect?s=124c7b25-52b6-49aa-acf6-7fbfae929280&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:19:03] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:19:03] "GET /new?aid=1 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 59524ece-e814-4328-9441-a6fb7548a567
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:19:03] "GET /connect?s=59524ece-e814-4328-9441-a6fb7548a567&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 59524ece-e814-4328-9441-a6fb7548a567
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:21:05] "GET /connect?s=59524ece-e814-4328-9441-a6fb7548a567&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 59524ece-e814-4328-9441-a6fb7548a567
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:21:16] "GET /connect?s=59524ece-e814-4328-9441-a6fb7548a567&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 59524ece-e814-4328-9441-a6fb7548a567
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:21:48] "GET /connect?s=59524ece-e814-4328-9441-a6fb7548a567&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 59524ece-e814-4328-9441-a6fb7548a567
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:22:07] "GET /connect?s=59524ece-e814-4328-9441-a6fb7548a567&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 59524ece-e814-4328-9441-a6fb7548a567
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:23:10] "GET /connect?s=59524ece-e814-4328-9441-a6fb7548a567&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:23:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:23:47] "GET /connect?s=59524ece-e814-4328-9441-a6fb7548a567&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:23:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:23:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:23:53] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:23:55] "GET /new?aid=1 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 31c113e7-7906-49b3-bdef-bb403e2798ba
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:23:55] "GET /connect?s=31c113e7-7906-49b3-bdef-bb403e2798ba&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:25:50] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:25:52] "GET /new?aid=1 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: c83a10f2-5ef8-444b-bfe9-77e5a11ca77d
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:25:52] "GET /connect?s=c83a10f2-5ef8-444b-bfe9-77e5a11ca77d&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:29:22] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:29:23] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:29:24] "GET /staff/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:29:28] "POST /staff/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:29:28] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:29:29] "GET /staff/activity/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:29:30] "GET /staff/create_config/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:29:31] "GET /staff/create_container HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:29:47] "POST /staff/create_container HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:29:49] "GET /staff/create_config/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:29:56] "POST /staff/add_configuration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:29:57] "GET /staff/activity/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:29:58] "GET /staff/create_content/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:30:01] "POST /staff/add_content HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:30:02] "GET /staff/activity/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:30:03] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:30:04] "GET /staff/activity/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:30:05] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 404 53
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:30:06] "GET /new?aid=2 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:30:06] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:30:06] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:30:06] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:30:06] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:30:06] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:30:06] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:31:44] "GET /new?aid=2 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:31:44] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:31:44] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:31:44] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:31:44] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:31:44] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:31:44] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:35:39] "GET /new?aid=2 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 0caaffae-432d-4c28-b9ee-fe7ffb464880
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:35:39] "GET /connect?s=0caaffae-432d-4c28-b9ee-fe7ffb464880&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:44:08] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:44:11] "GET /new?aid=2 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:44:11] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:44:11] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:44:11] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:44:11] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:44:11] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:44:11] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:45:38] "GET /new?aid=2 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:45:38] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:45:38] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:45:38] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:45:38] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:45:38] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:45:38] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:45:53] "GET /new?aid=2 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: bba7ffba-1ed1-452b-9f9f-b6ce8cc8151d
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:45:53] "GET /connect?s=bba7ffba-1ed1-452b-9f9f-b6ce8cc8151d&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:46:26] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:file:Added session: 2
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:46:30] "GET /new?aid=2 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 7d2831ac-4075-46f7-9d49-f45df4147405
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:46:30] "GET /connect?s=7d2831ac-4075-46f7-9d49-f45df4147405&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:47:06] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:47:08] "GET /new?aid=2 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:47:08] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:47:08] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:47:08] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:47:08] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:47:08] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:47:09] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:48:52] "GET /new?aid=2 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:48:52] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:48:52] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:48:52] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:48:52] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:48:52] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:48:52] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 404 101
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?fromImage=2d85c898bd647cac190b7cb593e2feab1285d00bf25c9d30d2e5bfa0d42fdac9 HTTP/1.1" 400 149
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:50:20] "GET /new?aid=2 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:50:20] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:50:20] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:50:20] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:50:20] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:50:20] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:50:20] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:57:50] "GET /new?aid=2 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:57:51] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:57:51] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:57:51] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:57:51] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:57:51] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:57:51] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/6ce88f097d614068cfb59827e900053a94d049c54311218d5c346bda06189ea5/start HTTP/1.1" 204 0
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/34260a738538c8d81c33eb1e0897293c62cfa69ac29cac93bddf76509e5f39f7/start HTTP/1.1" 204 0
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:58:20] "GET /new?aid=2 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 6880a105-d976-4d30-8646-ea527d628d02
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 16:58:20] "GET /connect?s=6880a105-d976-4d30-8646-ea527d628d02&c=1 HTTP/1.1" 200 -
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:02:59] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/563a0b6c49ef86d516f781371ed3efe12621283b03f8ef99b99af6e2ff7900cb/start HTTP/1.1" 204 0
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/3fede12948210ba2726eadeef9ae807df40ee43a1865bae09c60824e9546db47/start HTTP/1.1" 204 0
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:03:05] "GET /new?aid=2 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: dd5c851f-b851-473d-aac5-ed5a1155c749
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:03:05] "GET /connect?s=dd5c851f-b851-473d-aac5-ed5a1155c749&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:03:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: dd5c851f-b851-473d-aac5-ed5a1155c749
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:04:17] "GET /connect?s=dd5c851f-b851-473d-aac5-ed5a1155c749&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: dd5c851f-b851-473d-aac5-ed5a1155c749
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:04:20] "GET /connect?s=dd5c851f-b851-473d-aac5-ed5a1155c749&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:04:23] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/803a72669bcba0eef2a0afe8f3acb73c6f2064de8ba163eaa3fbd9b8498c4338/start HTTP/1.1" 204 0
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/36c3562a6ac16463e7cb103321ba7f403ee5ef2c4e02e0e5272546adb4f0fff7/start HTTP/1.1" 204 0
+DEBUG:file:Added session: 2
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:04:29] "GET /new?aid=2 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 11059452-96f4-411e-a9d1-ee6a1c678763
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:04:29] "GET /connect?s=11059452-96f4-411e-a9d1-ee6a1c678763&c=1 HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 11059452-96f4-411e-a9d1-ee6a1c678763
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:05:10] "GET /connect?s=11059452-96f4-411e-a9d1-ee6a1c678763&c=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/cyber-lab/app/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Projects/cyber-lab/db_repository...
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Projects/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Projects/cyber-lab/db_repository...
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Projects/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Projects/cyber-lab/app.db)
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 257-917-397
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:22:58] "GET /connect?s=11059452-96f4-411e-a9d1-ee6a1c678763 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:23:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:23:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:23:08] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:23:09] "GET /staff/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:23:39] "POST /staff/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:23:39] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:23:40] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:23:41] "GET /staff/create_config/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2018 17:23:43] "GET /staff/create_container HTTP/1.1" 200 -

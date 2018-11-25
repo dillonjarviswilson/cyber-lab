@@ -1,13 +1,39 @@
 {% extends "base.html" %} {% block content %}
 
 
-<div class="">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='content_builder/src/css/style_show.css') }}">
 
-    <a class="btn btn-success" href="{{ url_client }}" target="_blank">Client Terminal</a>
-    <a class="btn btn-success" href="{{ url_pos }}" target="_blank">POS Terminal</a>
-    <a class="btn btn-success" href="{{ url_ap }}" target="_blank">Router Terminal</a>
 
-</div>
+
+    <div class=container-area>
+        <div class="config-title">Lesson Containers</div>
+		{% for container in containers %}
+				<div class="container-box created" target="_blank" onclick="window.open('http://{{ container.url }}', '_blank');">
+					<div class="container-image-holder">
+						<img class="container-image" src="{{ url_for('static', filename='img/shipping_container.png') }}">
+					</div>
+				<div class="container-detail created">
+					{{ container.friendly_name }}
+				</div>
+				{{ container.external_port }}
+
+			</div>   
+		{% endfor %}
+
+    </div>
+
+    
+
+    <div class="content-area">
+        <div class="content-title">Lesson Content</div>
+            <div class="smaller-viewer">
+					<!-- blocks will go in here, leave empty -->
+					<div id="viewer">
+						{{ activity_content | safe}}
+					</div>
+			</div>
+    </div>
+ 
 
 
 
@@ -41,4 +67,25 @@
 				</div>
 			</div>
   </div>
+
+
+
+
+
+
+<script>
+
+    $( "p" ).each(function( index ) {
+       $( this ).prop('contenteditable', false );
+    });
+
+    $( ".upload_file.btn" ).each(function( index ) {
+       $( this ).remove()
+    });
+
+
+</script>
+
+
+
 {% endblock %}
