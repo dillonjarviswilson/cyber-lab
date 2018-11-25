@@ -6,36 +6,30 @@
 
     {% for activity in activities %}
 
-        <div  
-        {% if activity.running %}
-            class="activity_button running"
-        {% elif not activity.enabled %}
-            class="activity_button disabled"
-        {% elif activity.is_ready %}
-            class="activity_button ready"
-        {% endif %}
-         
-        onclick="location.href='../staff/activity/{{ activity.id }}';">
-            <div class="activity_title">
-                <div>{{ activity.title }}</div>
+    <div class="activity_button" onclick="location.href='../staff/activity/{{ activity.id }}';">
+
+    <div {% if activity.running %} class="activity_title bg-success" 
+        {% elif activity.enabled %} class="activity_title bg-warning"
+        {% else %} class="activity_title bg-danger" {% endif %} >
+            <div>{{ activity.title }}</div>
+        </div>
+        <div class="activity_body">
+            <div class="description">
+                This activity looks at cyber security.
             </div>
-            <div class="activity_body">
-                <div class="description">
-                    This activity looks at cyber security.
-                </div>
-                <div class="num_students">
-                    10 Students
-                </div>
-                <div class="num_containers">
-                    20 Containers
-                </div>
+            <div class="num_students">
+                10 Students
+            </div>
+            <div class="num_containers">
+                20 Containers
             </div>
         </div>
+    </div>
 
     {% endfor %}
 
 
-<div class="activity_button" onclick="location.href='../staff/create';">
+    <div class="activity_button" onclick="location.href='../staff/create';">
         <div class="activity_title">
             <div>Create a new activity</div>
         </div>

@@ -3,31 +3,59 @@
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='content_builder/src/css/style_show.css') }}">
 
-
-    <button class="btn btn-success" onclick="runActivity('start')">Run Activity</button>
+    {% if not activity_running %}
+        <button class="btn btn-success" onclick="runActivity('start')">Run Activity</button>
+    {% endif %}
+    {% if activity_running %}
     <button class="btn btn-warning" onclick="runActivity('stop')">Stop Activity</button>
+    {% endif %}
     <button class="btn btn-danger" onclick="deleteActivity('delete')">Delete Activity</button>
 
-    <button class="btn btn-info x-wide">
-            Add container configuration
-            <div class="large-icon"><i class="fas fa-plus"></i></div>
-    </button>
+    <div class=container-area>
+        <div class="config-title">Lesson Containers</div>
+    {% if activity_config %}
+            <!-- blocks will go in here, leave empty -->
+        {% for container in container_list %}
+                <div class="container-box created">
+                    <div class="container-image-holder">
+                        <img class="container-image" src="{{ url_for('static', filename='img/shipping_container.png') }}">
+                    </div>
+                <div class="container-detail created">
+                    {{ container.name }}
+                </div>
+            </div>   
 
+    
+        {% endfor %}
 
-   
-
-
-    {% if activity_content %}
-        <!-- blocks will go in here, leave empty -->
-    <div id="viewer">
-        {{ activity_content | safe}}
-    </div>
     {% else %}
-        <button class="btn btn-info x-wide lighter" onclick="createContentPage('{{activity_id}}')">
-            Add lesson content
+        <button class="btn btn-info x-wide lighter" onclick="createConfigPage('{{activity_id}}')">
+            Add Container Configuration
             <div class="large-icon"><i class="fas fa-plus"></i></div>
         </button>
     {% endif %}
+
+    </div>
+
+    
+
+    <div class="content-area">
+        <div class="content-title">Lesson Content</div>
+            <div class="smaller-viewer">
+                {% if activity_content %}
+                        <!-- blocks will go in here, leave empty -->
+                        <div id="viewer">
+                            {{ activity_content | safe}}
+                        </div>
+                {% else %}
+                    <button class="btn btn-info x-wide lighter" onclick="createContentPage('{{activity_id}}')">
+                        Add lesson content
+                        <div class="large-icon"><i class="fas fa-plus"></i></div>
+                    </button>
+                {% endif %}
+         </div>
+    </div>
+ 
 
 
 <script>
@@ -44,11 +72,15 @@
         window.location = '/staff/create_content/'+id_number;
     }
 
+    function createConfigPage(id_number){
+        window.location = '/staff/create_config/'+id_number;
+    }
+
     function capitaliseFirstLetter(string) {
         return string.charAt(0).toUpperCase() + string.slice(1);
     }
 
-    function runActivity(action, redirect){
+    function runActivity(action, refresh){
          $.post( "/staff/action", { activity_id: '{{ activity_id }}',
                                     activity_action: action
                     })
@@ -64,9 +96,8 @@
                         close: {
                             btnClass: 'btn-' + response_object.color,
                             action: function () { 
-                                if (redirect != null){
-                                    window.location = redirect;
-                                }
+                                location.reload();
+                                
                             }
                         }
                     }

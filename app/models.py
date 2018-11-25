@@ -4,10 +4,21 @@ class Session(db.Model):
     id = db.Column(db.Integer, primary_key=True, index=True)
     user_number = db.Column(db.Integer)
     unique_identifier = db.Column(db.String(300))
-    ap_address = db.Column(db.String(30))
-    client_address = db.Column(db.String(30))
-    pos_address = db.Column(db.String(30))
     time_created = db.Column(db.DateTime)
+    activity_id = db.Column(db.Integer, db.ForeignKey('activity.id'),
+        nullable=False)
+    number_of_ports = db.Column(db.Integer)
+
+
+class PortTable(db.Model):
+    id = db.Column(db.Integer, primary_key=True, index=True)
+    session_id = db.Column(db.Integer, db.ForeignKey('session.id'),
+        nullable=False)
+    container_id = db.Column(db.Integer, db.ForeignKey('container.id'),
+        nullable=False)
+    friendly_name = db.Column(db.String(300))
+    internal_port = db.Column(db.Integer)
+    external_port = db.Column(db.Integer)
 
 
 class Activity(db.Model):
@@ -22,8 +33,16 @@ class Activity(db.Model):
     has_containers = db.Column(db.Boolean)
     time_created = db.Column(db.DateTime)
     content = db.Column(db.String(1000000))
-    config = db.Column(db.String(1000000))
     number_of_students = db.Column(db.Integer)
     number_of_containers = db.Column(db.Integer)
+    container_list = db.Column(db.String(5000))
+
+
+class Container(db.Model):
+    id = db.Column(db.Integer, primary_key=True, index=True)
+    name = db.Column(db.String(50))
+    description = db.Column(db.String(5000))
+    image = db.Column(db.String(500))
+    expose_ports = db.Column(db.String(500))
 
 

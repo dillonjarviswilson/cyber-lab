@@ -1,0 +1,197 @@
+{% extends "base.html" %} {% block content %}
+
+
+<button class="btn btn-primary" onclick="CreateContainerConfig()">Add Container Configuration</button>
+
+
+
+<div class="builder">
+<div id="container-area">
+
+
+<div class="container-box">
+    <div class="container-image-holder">
+        <img class="container-image" src="{{ url_for('static', filename='img/shipping_container.png') }}">
+    </div>
+    <div class="container-detail">
+        {% if list_of_containers %}
+        <select class="container-selector">
+            {% for container in list_of_containers %}
+            <option value="{{container.id}}">{{container.name}}</option>
+            {% endfor %}
+        </select>
+        {% endif %}
+    </div>
+</div>
+
+
+
+<div class="container-box add-new-button" onclick="AddContainerBlock()">
+    <div class="container-image-holder">
+        <i class="fas fa-plus xl-icon"></i>
+    </div>
+    <div class="container-detail">
+        Add container
+    </div>
+</div>
+
+
+
+</div>
+</div>
+
+
+
+
+<button class="btn btn-success wide" onclick="AddContainerConfig('{{activity_id}}')">
+    Save Config
+    <div class="large-icon"><i class="fas fa-check"></i></div>
+</button>
+
+
+
+
+
+
+<script>
+
+
+
+    function AddContainerBlock(){
+        
+
+        var inner_html =    "<div id='clone' class=\"container-box\">"+
+                            "<div class=\"delete-button\">" +
+                            "<i class=\"far fa-times-circle\"></i>"+
+                            "</div>"+
+                            "<div class=\"container-image-holder\">"+
+                            "<img class=\"container-image\" src=\"{{ url_for('static', filename='img/shipping_container.png') }}\">"+
+                            "</div>"+
+                            "<div class=\"container-detail\">"+
+                            " {% if list_of_containers %}"+
+                            " <select class=\"container-selector\">"+
+                            " {% for container in list_of_containers %}"+
+                            " <option value=\"{{container.id}}\">{{container.name}}</option>"+
+                            " {% endfor %}"+
+                            " </select>"+
+                            " {% endif %}"+
+                            "</div>"+
+                            "</div>"
+
+
+    $(".add-new-button").before(inner_html);
+
+
+
+
+        $(".delete-button").confirm({
+            title: 'Confirm Deletion',
+            icon: 'fa fa-warning',
+            content: 'Do you want to remove this container from config?',
+            type: 'red',
+            theme: 'supervan',
+            buttons: {
+                confirm: {
+                    btnClass: 'btn-red',
+                    action: function () {
+                        this.$target.parent().remove();
+                    }
+                },
+                cancel: function () { }
+            }
+        });
+    }
+
+    function CreateContainerConfig(){
+        $.dialog({
+                    columnClass: 'col-md-12',
+                    title: 'Create New Container',
+                    icon: "fa fa-question-circle",
+                    content: "" +
+                    "<iframe class='add-container-frame' src='{{url_for('staff_create_container')}}'></iframe>",
+                    
+                    contentLoaded: function(data, status, xhr){
+                        // data is already set in content
+                        this.setContentAppend('<br>Status: ' + status);
+                    },
+                    type: "green",
+                    theme: 'supervan',
+               
+                    closeIcon: function(){
+                            location.reload();
+                        }
+                    })
+    }
+
+
+    function AddContainerConfig(id){
+        $.confirm({
+                    title: 'Confirm Save Container Config',
+                    icon: "fa fa-question-circle",
+                    content: "Save & Submit?",
+                    type: "green",
+                    theme: 'supervan',
+                    buttons: {
+                        save: {
+                            btnClass: 'btn-green',
+                            action: function () {
+                                SubmitConfig('/staff/activity/' + id)
+                            }
+                        },
+                        cancel: {
+                        }
+                    }
+                }); 
+
+
+
+         
+    }
+
+    function GetContainers(){
+        var count = 0
+        var string_list = ""
+        $( ".container-selector" ).each(function( index ) {
+            if (count == 0){
+                string_list = string_list + $(this).val()
+            } else {
+                string_list = string_list + ", " + $(this).val()
+            }
+            count+=1;
+        });
+        return string_list
+    }
+
+
+    function SubmitConfig(redirect){
+         $.post("/staff/add_configuration", { activity_id: '{{ activity_id }}',
+                                    container_list: GetContainers()
+                    })
+            .success(function(response_object) {
+                //dialog message
+                $.confirm({
+                    title: 'Saved',
+                    icon: response_object.icon,
+                    content: response_object.content,
+                    type: response_object.color,
+                    theme: 'supervan',
+                    buttons: {
+                        close: {
+                            btnClass: 'btn-' + response_object.color,
+                            action: function () { 
+                                if (redirect != null){
+                                    window.location = redirect;
+                                }
+                            }
+                        }
+                    }
+                });
+            })
+            .fail(function() {
+                alert( "error" );
+            }); 
+    }
+    
+   
+</script>
+{% endblock %}

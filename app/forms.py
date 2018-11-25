@@ -7,3 +7,12 @@ class NewActivityForm(Form):
     category = StringField('Category', validators=[DataRequired()])
     description = StringField('Description', validators=[DataRequired()])
     submit = SubmitField('Create Activity')
+
+
+
+class NewContainerForm(Form):
+    name = StringField('Title', validators=[DataRequired()])
+    image = StringField('Image URI', validators=[DataRequired()])
+    ports = StringField('Ports', validators=[DataRequired()])
+    description = StringField('Description', validators=[DataRequired()])
+    submit = SubmitField('Create Container')

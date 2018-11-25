@@ -4,3 +4,4 @@ flask-wtf
 sqlalchemy
 flask-sqlalchemy
 sqlalchemy-migrate
+docker
