@@ -1,0 +1,90 @@
+{% extends "modal_base.html" %} 
+{% block content %}
+
+<div class="padded-modal">
+        <div>
+                <div>{{title}}</div>
+            
+                <div class="text-info" id='status'></div>
+            
+                 <div class="text-success" id='progress'></div>
+                
+                <div class="text-danger" id='error'></div>
+
+                <div class="text-success" id='complete'></div>
+
+            </div>
+
+
+
+</div>
+
+
+<script type="text/javascript" charset="utf-8">
+    var socket = io.connect('http://' + document.domain + ':' + location.port);
+    socket.on('connect', function() {
+        
+        socket.emit('get_progress', '{{ cont_id }}');
+        
+        progress_object = null
+        // Listening for event
+        socket.on('progress_response', function(msg) {
+
+                var ks = msg.split("\n");
+
+                var filtered = ks.filter(Boolean);
+
+                console.log(filtered)
+                console.log(filtered.length)
+                if(filtered.length >= 2){
+                    for (var i = 0; i < filtered.length; i++){
+                        progress_object = JSON.parse(filtered[i]);
+                        if(progress_object.status){
+                            console.log(progress_object.status);
+                            document.getElementById("status").innerHTML = progress_object.status;
+                        }
+                        if(progress_object.progress){
+                            console.log(progress_object.progress);
+                            document.getElementById("progress").innerHTML = progress_object.progress;
+                        }
+                        if(progress_object.error){
+                            console.log(progress_object.error);
+                            document.getElementById("error").innerHTML = progress_object.error;
+                        }
+                        if(progress_object.complete){
+                            console.log(progress_object.complete);
+                            document.getElementById("complete").innerHTML = progress_object.complete;
+                        }
+                    }
+                } else {
+                    console.log(filtered[0])
+                    progress_object = JSON.parse(filtered[0]);
+                    if(progress_object.status){
+                        console.log(progress_object.status);
+                        document.getElementById("status").innerHTML = progress_object.status;
+                    }
+                    if(progress_object.progress){
+                            console.log(progress_object.progress);
+                            document.getElementById("progress").innerHTML = progress_object.progress;
+                    }
+                    if(progress_object.error){
+                        console.log(progress_object.error);
+                        document.getElementById("error").innerHTML = progress_object.error;
+                    }
+                    if(progress_object.complete){
+                            console.log(progress_object.complete);
+                            document.getElementById("complete").innerHTML = progress_object.complete;
+                        }
+                }
+
+                
+                
+                
+                
+        });
+
+    });
+</script>
+
+
+{% endblock %}

@@ -5,4 +5,7 @@ sqlalchemy
 flask-sqlalchemy
 sqlalchemy-migrate
 docker
+flask-socketio
+flask_admin
+enum
 

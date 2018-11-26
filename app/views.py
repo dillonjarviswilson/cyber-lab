@@ -1,10 +1,13 @@
-from app import app, db, models, setup
+from app import app, db, models, setup, socketio, admin
+from flask_socketio import send, emit
 from flask import render_template, url_for, redirect, flash, request
 from datetime import datetime
+from flask_admin.contrib.sqla import ModelView
 from app.models import Session, Activity, Container, PortTable
 from app.forms import NewActivityForm, NewContainerForm
 from sqlalchemy import desc, tuple_
 import docker
+from docker import errors
 from docker.utils import create_host_config
 import logging, logging.config, uuid
 import atexit
@@ -17,6 +20,11 @@ logfile    = logging.getLogger('file')
 logconsole = logging.getLogger('console')
 
 logfile.debug("Debug FILE")
+
+admin.add_view(ModelView(Session, db.session))
+admin.add_view(ModelView(Activity, db.session))
+admin.add_view(ModelView(Container, db.session))
+admin.add_view(ModelView(PortTable, db.session))
 
 DockerClient = docker.APIClient(base_url='unix:///var/run/docker.sock')
 Client = docker.from_env()
@@ -146,9 +154,6 @@ def new():
             db.session.commit()
 
 
-        for line in DockerClient.pull(str(container.image), stream=True):
-           print(line)
-
         container_config = DockerClient.create_host_config(
             port_bindings=port_dictionary)
 
@@ -189,11 +194,6 @@ def new():
     query = str("/connect?" + "s=" + new_session.unique_identifier + "&c=1")
 
     return redirect(query)
-
-
-
-
-
 
 
 
@@ -480,8 +480,9 @@ def staff_create_container():
 
     form = NewContainerForm()
     if form.validate_on_submit():
-        flash('New Container created {}'.format(
-            form.name.data))
+
+        image_name = form.image.data
+        print("getting image {}".format(image_name))
 
         dateNow = datetime.now()
 
@@ -496,8 +497,7 @@ def staff_create_container():
         db.session.add(new_container)
         db.session.commit()
 
-        return render_template('message.html', 
-                            message="Added Container")
+        return redirect('/staff/container_progress?cont=' + str(new_container.id))
 
     return render_template('create_container.html', 
                             title='Create New', 
@@ -505,7 +505,47 @@ def staff_create_container():
 
 
 
-                
+@app.route('/staff/container_progress', methods=['GET'])
+def staff_container_progress():
+
+    cont_id = request.args.get('cont')
+
+    new_container = Container.query.get(cont_id)
+
+    if new_container:
+        t = "Downloading " + str(new_container.image)
+        return render_template('downloading_container.html', 
+                                title=t,
+                                cont_id=str(cont_id)) 
+    else: return render_template('404.html', message="Could not locate container") 
+
+
+
+
+### socket.io Functions
+@socketio.on('get_progress')
+def handle_my_custom_event(cont_id):
+    
+    container = Container.query.get(cont_id)
+    print(container)
+    if container:
+        try:
+            for line in DockerClient.pull(container.image, stream=True):
+                emit('progress_response', line)
+            line = '{"complete": "The container has been setup"}'
+            emit('progress_response', line)
+        except errors.APIError as api_error:
+            print(api_error)
+            print("removed container model {}".format(container.name))
+            db.session.delete(container)
+            db.session.commit()
+    else:
+        line = '{"error": "The container has been removed"}'
+        emit('progress_response', line)
+
+
+
+
 
 
 ### Supporting Functions

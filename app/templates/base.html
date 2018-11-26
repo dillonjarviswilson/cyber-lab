@@ -34,13 +34,16 @@
     <!-- Draggable Lib -->
     <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.8/lib/draggable.js"></script>
 
+
+    <!-- socket io lib -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+   
+
     <!-- undo & medium libs -->
-
-
-<script src="{{ url_for('static', filename='content_builder/bower_components/rangy-official/rangy-core.js') }}"></script>
-<script src="{{ url_for('static', filename='content_builder/bower_components/rangy-official/rangy-classapplier.js') }}"></script>
-<script src="{{ url_for('static', filename='content_builder/bower_components/undo/undo.js') }}"></script>
-<link rel="stylesheet" href="{{ url_for('static', filename='content_builder/bower_components/medium-editor/dist/css/medium-editor.css') }}">
+    <script src="{{ url_for('static', filename='content_builder/bower_components/rangy-official/rangy-core.js') }}"></script>
+    <script src="{{ url_for('static', filename='content_builder/bower_components/rangy-official/rangy-classapplier.js') }}"></script>
+    <script src="{{ url_for('static', filename='content_builder/bower_components/undo/undo.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='content_builder/bower_components/medium-editor/dist/css/medium-editor.css') }}">
 
     <!-- Builder theme -->
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='content_builder/src/css/styles.css') }}">
