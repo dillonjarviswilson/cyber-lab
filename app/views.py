@@ -152,6 +152,16 @@ def new():
 
             db.session.add(new_entry)
             db.session.commit()
+        
+        try:
+            DockerClient.pull(container.image, stream=False)
+        except errors.APIError as api_error:
+            print(api_error)
+            print("removed container model {}".format(container.name))
+            print("error")
+            return render_template('404.html',
+                                message="There is an error with a container image. Please let your teacher know.")
+
 
 
         container_config = DockerClient.create_host_config(
