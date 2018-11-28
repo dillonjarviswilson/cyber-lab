@@ -45,5 +45,6 @@ class Container(db.Model):
     description = db.Column(db.String(5000))
     image = db.Column(db.String(500))
     expose_ports = db.Column(db.String(500))
+    is_ready = db.Column(db.Boolean)
 
 

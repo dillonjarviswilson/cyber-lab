@@ -89,7 +89,10 @@ def main_session():
 
 
     logfile.debug("attempting to connect to: " + str(session_id))
+    #port_list = PortTable.query.filter_by(session_id=session_id)
     container_list = PortTable.query.filter_by(session_id=session_id)
+
+    #for entry in port_list:
 
     return render_template('connection.html',
                         containers=container_list)
@@ -254,7 +257,7 @@ def staff_create_new():
                                 has_containers = False,
                                 time_created = dateNow,
                                 content = "",
-                                container_list = "",
+                                container_list = " ",
                                 description = form.description.data,
                                 enabled = False,
                                 is_ready = False,
@@ -283,7 +286,7 @@ def staff_edit_activity(activity_id):
     if activity != None:
         if activity.content != "":
             activity_content = activity.content        
-        if activity.container_list != "":
+        if activity.container_list != " ":
             list_cont = activity.container_list.split(", ")
             for i in list_cont:
                 cont = Container.query.get(i)
@@ -323,8 +326,23 @@ def staff_action():
         alert_message = ""
 
         if activity.has_containers and activity.has_content:
-            activity.enabled = True
-            db.session.commit()
+
+            container_list = activity.container_list.split(',')
+
+            #assume ready, check if is
+            ready = True
+            for c in container_list:
+                update_container(c)
+                c_instance = Container.query.get(c)
+                if c_instance.is_ready != True:
+                    print("Container {} not downloaded.".format(c_instance.image))
+                    ready = False
+                else:
+                    print("Container {} is downloaded.".format(c_instance.image))
+            
+            if ready:
+                activity.is_ready = True
+                db.session.commit()
 
         if action == "delete":
             db.session.delete(activity)
@@ -345,11 +363,11 @@ def staff_action():
             alert_icon = "fa fa-exclamation-circle"
             alert_color = "orange"
             alert_message = "The activity has no lesson content. You need to create if before running."
-        elif activity.enabled == False:
+        elif activity.is_ready == False:
             #inform the user
             alert_icon = "fa fa-exclamation-circle"
             alert_color = "red"
-            alert_message = "The activity has been disabled, enable it first."
+            alert_message = "The activities container images are not downloaded."
         else:
             if action == "start":
                 if activity.running == True:
@@ -544,6 +562,9 @@ def handle_my_custom_event(cont_id):
                 emit('progress_response', line)
             line = '{"complete": "The container has been setup"}'
             emit('progress_response', line)
+            container.is_ready = True
+            db.session.commit()
+
         except errors.APIError as api_error:
             print(api_error)
             print("removed container model {}".format(container.name))
@@ -598,6 +619,27 @@ def get_avail_port():
     else:
         return False
 
+
+def update_container(container_id):
+    container = Container.query.get(container_id)
+    print(container)
+    if container:
+        if container.is_ready != True:
+            try:
+                DockerClient.pull(container.image, stream=False)
+                flash('Image {} pulled for container {}'.format(container.image, container.name))
+                container.is_ready = True
+                db.session.commit()
+
+            except errors.APIError as api_error:
+                print(api_error)
+                #print("removed container model {}".format(container.name))
+                flash('Image {} could not be pulled for container {}'.format(container.image, container.name))
+                #db.session.delete(container)
+                #db.session.commit()
+    else:
+        line = '{"error": "The container has been removed"}'
+        emit('progress_response', line)
 
 
 class ContainerObj:

@@ -102,21 +102,34 @@
     <main role="main">
         <div class="container">
 
-
-                <div class="h1">
-                    {% if title %} {{ title }} {% else %} Home {% endif %}
+                <div id="loading">
+                    Loading...
+                    <img class="loading_image" src="{{ url_for('static', filename='img/loading.gif') }}">
                 </div>
 
-                <div class="appQue">
+                
 
+                <div class="block_content" id="content_area">
+
+                        <div class="h1">
+                                {% if title %} {{ title }} {% else %} Home {% endif %}
+                            </div>
+                            
                     {% block content %} {% endblock %}
-
-
                 </div>
+                
         </div>
 
     </main>
 
 </body>
+
+
+<script type="text/javascript">
+    function loading(){
+        $("#loading").show();
+        $("#content_area").hide();       
+    }
+</script>
 
 </html>

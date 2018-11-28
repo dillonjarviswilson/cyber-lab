@@ -21238,3 +21238,1056 @@ DEBUG:docker.auth:Found 'credsStore' section
 WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger pin code: 331-093-170
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:08:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:08:32] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:08:32] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:08:32] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:08:32] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:08:32] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:08:32] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:08:33] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:08:36] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:08:40] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:08:40] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:09:19] "GET /admin/container/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:09:19] "GET /admin/static/bootstrap/bootstrap3/swatch/cerulean/bootstrap.min.css?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:09:19] "GET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:09:19] "GET /admin/static/vendor/select2/select2-bootstrap3.css?v=1.4.6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:09:19] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:09:19] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs3.css?v=1.3.22 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:09:19] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:09:19] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:09:19] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:09:19] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:09:19] "GET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:09:19] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:09:19] "GET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:09:19] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:09:19] "GET /admin/static/bootstrap/bootstrap3/swatch/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:09:23] "GET /admin HTTP/1.1" 301 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:09:23] "GET /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:09:35] "GET /admin/session/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:09:41] "GET /admin/activity/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:13:32] "GET /admin/container/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:13:35] "GET /admin/activity/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:13:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:13:48] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:13:49] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:13:50] "GET /staff/create_config/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:13:50] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:13:54] "GET /staff/create_container HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:10] "POST /staff/create_container HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:10] "GET /staff/container_progress?cont=2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:10] "GET /socket.io/?EIO=3&transport=polling&t=1543414450470-0 HTTP/1.1" 200 -
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:11] "POST /socket.io/?EIO=3&transport=polling&t=1543414450480-1&sid=091c6cb0c3d34d0fb31b3c9fac3564ed HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:11] "GET /socket.io/?EIO=3&transport=polling&t=1543414450481-2&sid=091c6cb0c3d34d0fb31b3c9fac3564ed HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:14] "GET /staff/create_config/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:18] "POST /staff/add_configuration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:19] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:21] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:22] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:23] "GET /staff/create_content/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:23] "GET /static/content_builder/bower_components/medium-editor/dist/js/medium-editor.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:23] "GET /static/content_builder/src/js/builder.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:23] "GET /static/content_builder/bower_components/Sortable/Sortable.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:25] "POST /staff/add_content HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:26] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:28] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:36] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:38] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:14:39] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:15:11] "GET /socket.io/?EIO=3&transport=polling&t=1543414451956-3&sid=091c6cb0c3d34d0fb31b3c9fac3564ed HTTP/1.1" 400 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/werkzeug/serving.py", line 270, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python2.7/site-packages/werkzeug/serving.py", line 261, in execute
+    write(data)
+  File "/usr/local/lib/python2.7/site-packages/werkzeug/serving.py", line 238, in write
+    self.send_header('Date', self.date_time_string())
+  File "/usr/local/Cellar/python@2/2.7.14_3/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:16:43] "GET /staff/activity/1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:16:43] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:16:43] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:16:43] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:16:43] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:16:43] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:16:43] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/db_repository...
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('__name__', 'db_settings'), ('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/db_repository...
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('__name__', 'db_settings'), ('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/db_repository...
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('__name__', 'db_settings'), ('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('__name__', 'db_settings'), ('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+INFO:migrate.versioning.api:0 -> 1... 
+INFO:migrate.versioning.api:done
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app.db)
+DEBUG:migrate.versioning.util:Constructing engine
+DEBUG:migrate.versioning.repository:Loading repository /Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/db_repository...
+DEBUG:migrate.versioning.script.base:Loading script /Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/db_repository/versions/001_migration.py...
+DEBUG:migrate.versioning.script.base:Script /Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/db_repository/versions/001_migration.py loaded successfully
+DEBUG:migrate.versioning.repository:Repository /Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/db_repository loaded successfully
+DEBUG:migrate.versioning.repository:Config: OrderedDict([('db_settings', OrderedDict([('__name__', 'db_settings'), ('repository_id', 'database repository'), ('version_table', 'migrate_version'), ('required_dbs', '[]'), ('use_timestamp_numbering', 'False')]))])
+DEBUG:migrate.versioning.util:Disposing SQLAlchemy engine Engine(sqlite:////Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app.db)
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:19:54] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:19:56] "POST /staff/action HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:20:58] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:20:59] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:21:00] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:21:01] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:21:04] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:21:21] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:21:23] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:21:24] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:21:28] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:22:08] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:22:19] "POST /staff/action HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:22:29] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:22:31] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:22:32] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:23:18] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:23:20] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:23:21] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:23:36] "GET /admin/container/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:23:43] "GET /admin/activity/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:23:48] "GET /admin/activity/edit/?url=%2Fadmin%2Factivity%2F&id=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:02] "POST /admin/activity/edit/?url=%2Fadmin%2Factivity%2F&id=1 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:02] "GET /admin/activity/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:05] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:06] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:18] "GET /admin/activity/edit/?url=%2Fadmin%2Factivity%2F&id=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:27] "POST /admin/activity/edit/?url=%2Fadmin%2Factivity%2F&id=1 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:27] "GET /admin/activity/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:32] "GET /staff/activity/1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:32] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:32] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:32] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:32] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:32] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:32] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:43] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:44] "GET /staff/activity/1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:44] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:44] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:44] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:44] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:24:44] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:05] "GET /admin/activity/edit/?url=%2Fadmin%2Factivity%2F&id=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:08] "POST /admin/activity/edit/?url=%2Fadmin%2Factivity%2F&id=1 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:08] "GET /admin/activity/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:10] "GET /admin/activity/edit/?url=%2Fadmin%2Factivity%2F&id=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:14] "POST /admin/activity/edit/?url=%2Fadmin%2Factivity%2F&id=1 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:14] "GET /admin/activity/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:17] "GET /staff/activity/1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:17] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:17] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:17] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:17] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:17] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:17] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:38] "GET /staff/activity/1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:38] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:38] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:38] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:38] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:38] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:38] "GET /staff/activity/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:41] "GET /admin/activity/edit/?url=%2Fadmin%2Factivity%2F&id=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:46] "POST /admin/activity/edit/?url=%2Fadmin%2Factivity%2F&id=1 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:46] "GET /admin/activity/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:49] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:50] "GET /staff/create_config/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:25:59] "POST /staff/add_configuration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:26:02] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:26:04] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:26:05] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:30:18] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:30:58] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:30:59] "POST /staff/action HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=ubuntu HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:31:14] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:31:16] "GET /staff/activity/1 HTTP/1.1" 200 -
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=ubuntu HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:31:26] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:31:27] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:41:54] "GET /staff/activity/1 HTTP/1.1" 200 -
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=ubuntu HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:41:59] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:42:00] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:44:16] "GET /staff/activity/1 HTTP/1.1" 200 -
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=ubuntu HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:44:20] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:44:21] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:45:20] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:45:42] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:47:51] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:47:51] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:47:51] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:47:51] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:47:51] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:47:51] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:47:51] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:47:51] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:47:51] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:47:51] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:52:05] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:52:05] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:52:05] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:52:05] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:52:05] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:52:05] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:52:05] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:52:05] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:52:05] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:52:05] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:16] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:16] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:16] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:16] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:16] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:16] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:16] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:16] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:16] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:16] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=ubuntu HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:21] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:22] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:22] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:22] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:22] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:22] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:22] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:22] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:22] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:22] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:22] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:44] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:44] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:44] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:44] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:44] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:44] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:44] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:44] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:44] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:44] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=ubuntu HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:51] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:59] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:59] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:59] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:59] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:59] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:59] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:59] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:59] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:59] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:54:59] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:18] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:18] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:18] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:18] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:18] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:18] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:18] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:18] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:18] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:18] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:19] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:25] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:25] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:25] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:25] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:25] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:25] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:25] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:25] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:25] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:57:25] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:24] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:24] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:24] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:24] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:24] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:24] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:24] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:24] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:24] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:24] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:25] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:31] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:31] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:31] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:31] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:31] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:31] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:31] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:31] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:31] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:58:31] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:01] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:01] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:01] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:01] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:01] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:01] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:01] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:01] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:01] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:01] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:02] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:08] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:08] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:08] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:08] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:08] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:08] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:08] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:08] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:08] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:08] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:32] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:32] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:32] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:32] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:32] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:32] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:32] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:32] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:32] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:32] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:33] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:35] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:35] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:35] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:35] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:35] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:35] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:35] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:35] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:35] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:35] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:39] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:39] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:39] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:39] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:39] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:39] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:39] "GET /static/img/loading.gif HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/3023c3974e401cadb425526d4df1dac83c681e328bba87e401c1c01e0f80311c/start HTTP/1.1" 204 0
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=ubuntu HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/81b9b83e4e6acbc25a4cb67eecca37980bba6fecce4d4a0eae7b73d52b04a860/start HTTP/1.1" 204 0
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:46] "GET /new?aid=1 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: c1b1f857-bcae-47d1-9fe2-f5f774d54093
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:46] "GET /connect?s=c1b1f857-bcae-47d1-9fe2-f5f774d54093&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:46] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:46] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:46] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:46] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:46] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:46] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:46] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:46] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 14:59:46] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: c1b1f857-bcae-47d1-9fe2-f5f774d54093
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:29] "GET /connect?s=c1b1f857-bcae-47d1-9fe2-f5f774d54093&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:29] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:29] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:29] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:29] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:29] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:29] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:29] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:29] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:29] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:31] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:31] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:31] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:31] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:31] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:31] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:31] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:33] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:33] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:33] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:33] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:33] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:33] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:33] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:33] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:34] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:34] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:34] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:34] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:34] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:34] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:34] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:34] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:34] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:34] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:36] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:37] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:37] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:37] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:37] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:37] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:37] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:37] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:37] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:37] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:37] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:52] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:52] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:52] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:52] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:52] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:52] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:52] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:58] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:58] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:58] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:58] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:58] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:58] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:58] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:58] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:59] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:59] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:59] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:59] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:59] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:59] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:59] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:59] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:59] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:02:59] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:06] "POST /staff/action HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:07] "GET /staff/activity/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:07] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:07] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:07] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:07] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:07] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:07] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:07] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:07] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:07] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:09] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:09] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:09] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:09] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:09] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:09] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:09] "GET /static/img/loading.gif HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/d7625b0fac44df01161cd55c90483b2acf1b916b6c0f481467eb57a3e11b5e11/start HTTP/1.1" 204 0
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=ubuntu HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/0bbd79257ea379cac0ac7d7f2e898d5846cadf71bca8253e351a21e677fc8dfd/start HTTP/1.1" 204 0
+DEBUG:file:Added session: 2
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:14] "GET /new?aid=1 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: c5324d84-2351-464f-abe3-7e1722eb0d1d
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:14] "GET /connect?s=c5324d84-2351-464f-abe3-7e1722eb0d1d&c=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:14] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:14] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:14] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:14] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:14] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:14] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:14] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:14] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 15:03:14] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/dillonwilson/Projects/CYBER_LAB_1.0/cyber-lab/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:31] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:31] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:31] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:31] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:31] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:31] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:31] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/ec69d609a27f2168cdb8df2c2263b79e33f64c3bbb414dab5fd3eb269909ad99/start HTTP/1.1" 500 219
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:34] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:34] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:34] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:34] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:34] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:34] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=yeasy%2Fsimple-web HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/faaf7ef907a324727439b61896d6fc3b44ccae0abec2757c8873c4f444ef3635/start HTTP/1.1" 204 0
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:Found auth config
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/images/create?tag=latest&fromImage=ubuntu HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/create HTTP/1.1" 201 90
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/containers/5290bf87239cf3e3f086ea4b191ec4c8b1f2aa5cfe887501ed0308d53fd0d455/start HTTP/1.1" 500 213
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:44] "GET /new?aid=1 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:44] "GET /new?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:44] "GET /new?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:44] "GET /new?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:44] "GET /new?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:44] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2018 17:15:44] "GET /new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -

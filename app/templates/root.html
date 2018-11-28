@@ -3,7 +3,7 @@
 
 {% for activity in activities %}
 
-<div class="activity_button" target="_blank" onclick="location.href='/new?aid={{ activity.id }}'">
+<div class="activity_button" target="_blank" onclick="loading();location.href='/new?aid={{ activity.id }}'">
 
     <div class="activity_title bg-success">
         <div>{{ activity.title }}</div>

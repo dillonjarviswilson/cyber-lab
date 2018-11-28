@@ -4,10 +4,10 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='content_builder/src/css/style_show.css') }}">
 
     {% if not activity_running %}
-        <button class="btn btn-success" onclick="runActivity('start')">Run Activity</button>
+        <button class="btn btn-success" onclick="loading();runActivity('start')">Run Activity</button>
     {% endif %}
     {% if activity_running %}
-    <button class="btn btn-warning" onclick="runActivity('stop')">Stop Activity</button>
+    <button class="btn btn-warning" onclick="loading();runActivity('stop')">Stop Activity</button>
     {% endif %}
     <button class="btn btn-danger" onclick="deleteActivity('delete')">Delete Activity</button>
 
