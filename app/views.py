@@ -8,6 +8,7 @@ from app.forms import NewActivityForm, NewContainerForm
 from sqlalchemy import desc, tuple_
 import docker
 from docker import errors
+from docker.types import EndpointSpec
 from docker.utils import create_host_config
 import logging, logging.config, uuid
 import atexit
@@ -27,12 +28,12 @@ admin.add_view(ModelView(Container, db.session))
 admin.add_view(ModelView(PortTable, db.session))
 
 DockerClient = docker.APIClient(base_url='unix:///var/run/docker.sock')
-Client = docker.from_env()
+DClient = docker.from_env()
 sessionTracker = {}
-
+networkTracker = {}
 
 def get_full_url(port):
-    return str("localhost:" + str(port))
+    return str("10.0.0.10:" + str(port))
 
 def exit_handler():
     print("\n\nShutting down...")
@@ -47,8 +48,15 @@ def exit_handler():
                 lst = val
                 if lst != None:
                     for c in lst:
-                        c.remove()
-                        print("Removed")
+                        print(c)
+                        cont = DClient.services.get(c)
+                        cont.remove()
+                        print("Removed container service".format(c))
+
+            for key,val in networkTracker.items():
+                net = DClient.networks.get(val)
+                net.remove()
+                print("Removed network".format(net.id))
 
             db.session.delete(s)
         db.session.commit()
@@ -123,8 +131,19 @@ def new():
 
     container_string_list = activity.container_list.split(",")
     container_instance_list = []
- 
+
+
+    net_name = str(session_id)[0:5] + "-net-" + str(activity.id)
+    network = DClient.networks.create(net_name, driver="overlay")
+
+    networkTracker[session_id] = network.id
+
+    print("new_network {}".format(network.id))
+
+
+    index = 0
     for i in container_string_list:
+        index += 1
         container = Container.query.get(i)
 
         print("Container: {} \tports: {}".format(container.name, str(container.expose_ports)))
@@ -142,7 +161,7 @@ def new():
                 
             desc = "Port {} on container {}".format(internal_port, container.name)
 
-            port_dictionary[int(internal_port)] = int(ext_port)
+            port_dictionary[int(ext_port)] = int(internal_port)
             int_port_list.append(int(internal_port))
 
             new_entry = models.PortTable(
@@ -156,32 +175,46 @@ def new():
             db.session.add(new_entry)
             db.session.commit()
         
-        try:
-            DockerClient.pull(container.image, stream=False)
-        except errors.APIError as api_error:
-            print(api_error)
-            print("removed container model {}".format(container.name))
-            print("error")
+
+        if (image_local(container.image) != True):
             return render_template('404.html',
                                 message="There is an error with a container image. Please let your teacher know.")
 
 
 
-        container_config = DockerClient.create_host_config(
-            port_bindings=port_dictionary)
+        #container_config = DockerClient.create_host_config(
+         #   port_bindings=port_dictionary)
 
-        docker_container_instance = DockerClient.create_container(
-                image=str(container.image), 
-                ports=int_port_list,
-                host_config=container_config,
-                detach=True,
-        )
+        #docker_container_instance = DockerClient.create_container(
+         #       image=str(container.image), 
+         #       ports=int_port_list,
+         #       host_config=container_config,
+         ##       detach=True,
+        #)
 
-        print("NAME: {}".format(docker_container_instance['Id']))
+        endpointSpec = EndpointSpec(ports=port_dictionary)
 
-        DockerClient.start(docker_container_instance['Id'])
+        lst = []
+        lst.append(str(network.name))
 
-        container_instance_list.append(docker_container_instance)      
+        name = "session-{}-container-{}".format(str(session_id)[0:5], index)
+        
+        #task_tmpl = docker.types.TaskTemplate(docker_container_instance['Id'])
+        print("Network id = {}".format(network.name))
+
+        service_id = DClient.services.create(image=str(container.image), 
+                                            endpoint_spec=endpointSpec, 
+                                            name=name,
+                                            networks=lst)
+
+    
+
+        print("NAME: {}".format(service_id))
+
+        #DockerClient.start(docker_container_instance['Id'])
+
+        container_instance_list.append(name)
+          
         print("Container Name: {} \tPorts: {}".format(
             str(container.image),
             str(port_dictionary)
@@ -619,7 +652,6 @@ def get_avail_port():
     else:
         return False
 
-
 def update_container(container_id):
     container = Container.query.get(container_id)
     print(container)
@@ -640,6 +672,24 @@ def update_container(container_id):
     else:
         line = '{"error": "The container has been removed"}'
         emit('progress_response', line)
+
+
+def image_local(image_name):
+    list_images = DClient.images.list()
+
+    for i in list_images:
+        tags = i.tags
+        for t in tags:
+            t_segmented = t.split(':')
+            full_base = ""
+            for count in range(0, len(t_segmented)-1):
+                if count != 0:
+                    full_base += ":"
+                full_base += t_segmented[count]
+            print("Checking Tag {}".format(full_base))
+            if image_name == full_base:
+                return True
+    return False
 
 
 class ContainerObj:
