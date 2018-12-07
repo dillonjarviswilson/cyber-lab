@@ -33,7 +33,7 @@ sessionTracker = {}
 networkTracker = {}
 
 def get_full_url(port):
-    return str("10.0.0.10:" + str(port))
+    return str("10.41.10.201:" + str(port))
 
 def exit_handler():
     print("\n\nShutting down...")
@@ -90,20 +90,23 @@ def main_session():
                                 message='No container ID specified')
 
     ses = Session.query.filter_by(unique_identifier=session_id).first()
+    
     #no session found
     if ses == None:
         return render_template('404.html',
-                                message='Session does not exsist')
+                                message='Session does not exist')
 
 
     logfile.debug("attempting to connect to: " + str(session_id))
     #port_list = PortTable.query.filter_by(session_id=session_id)
     container_list = PortTable.query.filter_by(session_id=session_id)
 
-    #for entry in port_list:
+    activity = Activity.query.get(ses.activity_id)
 
     return render_template('connection.html',
-                        containers=container_list)
+                        title=activity.title,
+                        containers=container_list,
+                        content=activity.content)
     
     
 

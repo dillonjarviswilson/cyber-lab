@@ -1,89 +1,50 @@
 {% extends "base.html" %} {% block content %}
 
 
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='content_builder/src/css/style_show.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='content_builder/src/css/style_show.css') }}">
 
 
 
-    <div class=container-area>
-        <div class="config-title">Lesson Containers</div>
-		{% for container in containers %}
-				<div class="container-box created" target="_blank" onclick="window.open('http://{{ container.url }}', '_blank');">
-					<div class="container-image-holder">
-						<img class="container-image" src="{{ url_for('static', filename='img/shipping_container.png') }}">
-					</div>
-				<div class="container-detail created">
-					{{ container.friendly_name }}
-				</div>
-				{{ container.external_port }}
-
-			</div>   
-		{% endfor %}
+<div class=container-area>
+    <div class="config-title">Lesson Containers</div>
+    {% for container in containers %}
+    <div class="container-box created" target="_blank" onclick="window.open('http://{{ container.url }}', '_blank');">
+        <div class="container-image-holder">
+            <img class="container-image" src="{{ url_for('static', filename='img/shipping_container.png') }}">
+        </div>
+        <div class="container-detail created">
+            {{ container.friendly_name }}
+        </div>
+        {{ container.external_port }}
 
     </div>
+    {% endfor %}
 
-    
-
-    <div class="content-area">
-        <div class="content-title">Lesson Content</div>
-            <div class="smaller-viewer">
-					<!-- blocks will go in here, leave empty -->
-					<div id="viewer">
-						{{ activity_content | safe}}
-					</div>
-			</div>
-    </div>
- 
-
-
-
-
-<div class="container">
-<h2>Demo</h2>
 </div>
-<div id="exTab3" class="container">	
-<ul  class="nav nav-pills">
-			<li class="active">
-		        <a  href="#1b" data-toggle="tab">Client</a>
-			</li>
-			<li><a href="#2b" data-toggle="tab">Access Point</a>
-			</li>
-			<li><a href="#3b" data-toggle="tab">Router</a>
-			</li>
-		</ul>
-
-			<div class="tab-content clearfix">
-				<div class="tab-pane active" id="1b">
-					<iframe src="{{ url_client }}"></iframe>
-				</div>
-				<div class="tab-pane" id="2b">
-		  			<iframe src="{{ url_ap }}"></iframe>
-				</div>
-        <div class="tab-pane" id="3b">
-          <h3>We applied clearfix to the tab-content to rid of the gap between the tab and the content</h3>
-				</div>
-          <div class="tab-pane" id="4b">
-          <h3>We use css to change the background color of the content to be equal to the tab</h3>
-				</div>
-			</div>
-  </div>
 
 
+
+<div class="content-area">
+    <div class="content-title">Lesson Content</div>
+    <div class="smaller-viewer">
+        <!-- blocks will go in here, leave empty -->
+        <div id="viewer">
+            {{ content | safe}}
+        </div>
+    </div>
+</div>
 
 
 
 
 <script>
-
-    $( "p" ).each(function( index ) {
-       $( this ).prop('contenteditable', false );
+    $("p").each(function(index) {
+        $(this).prop('contenteditable', false);
     });
 
-    $( ".upload_file.btn" ).each(function( index ) {
-       $( this ).remove()
+    $(".upload_file.btn").each(function(index) {
+        $(this).remove()
     });
-
-
 </script>
 
 
