@@ -29441,3 +29441,244 @@ DEBUG:urllib3.connectionpool:http://localhost:None "DELETE /v1.35/networks/c0ih6
 DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/networks/03mi75luvrve120vfh5vin8kx HTTP/1.1" 200 1081
 DEBUG:urllib3.connectionpool:http://localhost:None "DELETE /v1.35/networks/03mi75luvrve120vfh5vin8kx HTTP/1.1" 204 0
 DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/services/session-1b320-container-1 HTTP/1.1" 404 58
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Couldn't find auth-related section ; attempting to interpretas auth-only file
+DEBUG:docker.auth:Auth data for auths is absent. Client might be using a credentials store instead.
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Couldn't find auth-related section ; attempting to interpretas auth-only file
+DEBUG:docker.auth:Auth data for auths is absent. Client might be using a credentials store instead.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Couldn't find auth-related section ; attempting to interpretas auth-only file
+DEBUG:docker.auth:Auth data for auths is absent. Client might be using a credentials store instead.
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Couldn't find auth-related section ; attempting to interpretas auth-only file
+DEBUG:docker.auth:Auth data for auths is absent. Client might be using a credentials store instead.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:49] "GET /connect?s=1b32055d-ab5b-408b-8358-322624d7d633 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:49] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:49] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:49] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:49] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:49] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:49] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:49] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:51] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:51] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:51] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:51] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:51] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:51] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:51] "GET /static/img/loading.gif HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/networks/create HTTP/1.1" 201 48
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/networks/80qxw48sxupr7hxizgv3p5g1w HTTP/1.1" 200 402
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/json?only_ids=0&all=0 HTTP/1.1" 200 1326
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/sha256:0e39ff1f0bf88a06c5cafbf2951ca39ee23c61f84fb16380e0e937d2a0788e3c/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/sha256:f278a644838403721852331cc03606a7727b3cc5909b9080bd217355abcea47d/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/sha256:4c8e05d16d7ccca27ced2329eea7ceb02677bd0b127ec62d58435297083ac4fc/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/sha256:93fd78260bd1495afb484371928661f63e64be306b7ac48e2d13ce9422dfee26/json HTTP/1.1" 200 None
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Looking for auth entry for 'docker.io'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No auth config found
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/services/create HTTP/1.1" 201 35
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/services/rr8ynqcgwa7xmhkz5ucr564xr HTTP/1.1" 200 896
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/json?only_ids=0&all=0 HTTP/1.1" 200 1326
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/sha256:0e39ff1f0bf88a06c5cafbf2951ca39ee23c61f84fb16380e0e937d2a0788e3c/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/sha256:f278a644838403721852331cc03606a7727b3cc5909b9080bd217355abcea47d/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/sha256:4c8e05d16d7ccca27ced2329eea7ceb02677bd0b127ec62d58435297083ac4fc/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/sha256:93fd78260bd1495afb484371928661f63e64be306b7ac48e2d13ce9422dfee26/json HTTP/1.1" 200 None
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Looking for auth entry for 'docker.io'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No auth config found
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/services/create HTTP/1.1" 201 35
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/services/zo3ar1pm2fs5stn4030jjtyiw HTTP/1.1" 200 896
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:58] "GET /new?aid=2 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: f8a4a7ad-31e2-4d5e-b839-87406f269bb4
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:58] "GET /connect?s=f8a4a7ad-31e2-4d5e-b839-87406f269bb4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:58] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:58] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:58] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:58] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:58] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:58] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:58] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:26:58] "GET /static/img/loading.gif HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: f8a4a7ad-31e2-4d5e-b839-87406f269bb4
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:27:30] "GET /connect?s=f8a4a7ad-31e2-4d5e-b839-87406f269bb4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:27:30] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:27:30] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:27:30] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:27:30] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:27:30] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:27:30] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:27:30] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:27:30] "GET /static/img/loading.gif HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: f8a4a7ad-31e2-4d5e-b839-87406f269bb4
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:28:40] "GET /connect?s=f8a4a7ad-31e2-4d5e-b839-87406f269bb4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:28:40] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:28:40] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:28:40] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:28:40] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:28:40] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:28:40] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:28:40] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:28:40] "GET /static/img/loading.gif HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: f8a4a7ad-31e2-4d5e-b839-87406f269bb4
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:28:56] "GET /connect?s=f8a4a7ad-31e2-4d5e-b839-87406f269bb4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:28:56] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:28:56] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:28:56] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:28:56] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:28:56] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:28:56] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:28:56] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:28:56] "GET /static/img/loading.gif HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: f8a4a7ad-31e2-4d5e-b839-87406f269bb4
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:29:20] "GET /connect?s=f8a4a7ad-31e2-4d5e-b839-87406f269bb4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:29:20] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:29:20] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:29:20] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:29:20] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:29:20] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:29:20] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:29:20] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:29:20] "GET /static/img/loading.gif HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: f8a4a7ad-31e2-4d5e-b839-87406f269bb4
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:30:52] "GET /connect?s=f8a4a7ad-31e2-4d5e-b839-87406f269bb4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:30:52] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:30:52] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:30:52] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:30:52] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:30:52] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:30:52] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:30:52] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:30:52] "GET /static/img/loading.gif HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: f8a4a7ad-31e2-4d5e-b839-87406f269bb4
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:31:53] "GET /connect?s=f8a4a7ad-31e2-4d5e-b839-87406f269bb4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:31:53] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:31:53] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:31:53] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:31:53] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:31:53] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:31:53] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:31:53] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:31:53] "GET /static/img/loading.gif HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: f8a4a7ad-31e2-4d5e-b839-87406f269bb4
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:33:44] "GET /connect?s=f8a4a7ad-31e2-4d5e-b839-87406f269bb4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:33:44] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:33:44] "GET /static/content_builder/src/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:33:44] "GET /static/content_builder/bower_components/medium-editor/dist/css/medium-editor.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:33:44] "GET /static/content_builder/bower_components/undo/undo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:33:44] "GET /static/content_builder/bower_components/rangy-official/rangy-classapplier.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:33:44] "GET /static/content_builder/bower_components/rangy-official/rangy-core.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:33:44] "GET /static/content_builder/src/css/style_show.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:33:44] "GET /static/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:34:46] "GET /activity_workspace?s=f8a4a7ad-31e2-4d5e-b839-87406f269bb4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:36:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:36:43] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:36:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:36:44] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:36:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:36:46] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:36:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:36:51] "GET /staff HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/services/session-f8a4a-container-1 HTTP/1.1" 200 896
+DEBUG:urllib3.connectionpool:http://localhost:None "DELETE /v1.35/services/rr8ynqcgwa7xmhkz5ucr564xr HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/services/session-f8a4a-container-2 HTTP/1.1" 200 896
+DEBUG:urllib3.connectionpool:http://localhost:None "DELETE /v1.35/services/zo3ar1pm2fs5stn4030jjtyiw HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/networks/80qxw48sxupr7hxizgv3p5g1w HTTP/1.1" 200 1081
+DEBUG:urllib3.connectionpool:http://localhost:None "DELETE /v1.35/networks/80qxw48sxupr7hxizgv3p5g1w HTTP/1.1" 204 0
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Couldn't find auth-related section ; attempting to interpretas auth-only file
+DEBUG:docker.auth:Auth data for auths is absent. Client might be using a credentials store instead.
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Couldn't find auth-related section ; attempting to interpretas auth-only file
+DEBUG:docker.auth:Auth data for auths is absent. Client might be using a credentials store instead.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Couldn't find auth-related section ; attempting to interpretas auth-only file
+DEBUG:docker.auth:Auth data for auths is absent. Client might be using a credentials store instead.
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Couldn't find auth-related section ; attempting to interpretas auth-only file
+DEBUG:docker.auth:Auth data for auths is absent. Client might be using a credentials store instead.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:45:07] "GET /staff HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:45:12] "GET /activity_workspace?s=f8a4a7ad-31e2-4d5e-b839-87406f269bb4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:45:18] "GET /staff/activity/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:45:18] "GET /static/img/shipping_container.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:45:23] "GET / HTTP/1.1" 200 -
+DEBUG:file:making new session
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/networks/create HTTP/1.1" 201 48
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/networks/i1ruq21ijwtaepodvi5tbv2z0 HTTP/1.1" 200 401
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/json?only_ids=0&all=0 HTTP/1.1" 200 1661
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/sha256:7985b96650fa5ced48636e21745d6f778b03fdb5d983750a3ca462be953d38e4/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/sha256:0e39ff1f0bf88a06c5cafbf2951ca39ee23c61f84fb16380e0e937d2a0788e3c/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/sha256:f278a644838403721852331cc03606a7727b3cc5909b9080bd217355abcea47d/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/sha256:4c8e05d16d7ccca27ced2329eea7ceb02677bd0b127ec62d58435297083ac4fc/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/sha256:93fd78260bd1495afb484371928661f63e64be306b7ac48e2d13ce9422dfee26/json HTTP/1.1" 200 None
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Looking for auth entry for 'docker.io'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No auth config found
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/services/create HTTP/1.1" 201 35
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/services/lj2voz4ttpnojm1ltx3ktmiqn HTTP/1.1" 200 895
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/json?only_ids=0&all=0 HTTP/1.1" 200 1661
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/sha256:7985b96650fa5ced48636e21745d6f778b03fdb5d983750a3ca462be953d38e4/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/sha256:0e39ff1f0bf88a06c5cafbf2951ca39ee23c61f84fb16380e0e937d2a0788e3c/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/sha256:f278a644838403721852331cc03606a7727b3cc5909b9080bd217355abcea47d/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/sha256:4c8e05d16d7ccca27ced2329eea7ceb02677bd0b127ec62d58435297083ac4fc/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/images/sha256:93fd78260bd1495afb484371928661f63e64be306b7ac48e2d13ce9422dfee26/json HTTP/1.1" 200 None
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Looking for auth entry for 'docker.io'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No auth config found
+DEBUG:urllib3.connectionpool:http://localhost:None "POST /v1.35/services/create HTTP/1.1" 201 35
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/services/wtaxmpj527ozj0pm4blzyg5xy HTTP/1.1" 200 896
+DEBUG:file:Added session: 1
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:45:29] "GET /new?aid=2 HTTP/1.1" 302 -
+DEBUG:file:- New Connection -
+DEBUG:file:attempting to connect to: 4dc440bd-7aa7-48d2-9b22-a46f3bbcff11
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:45:29] "GET /connect?s=4dc440bd-7aa7-48d2-9b22-a46f3bbcff11 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:45:31] "GET /activity_workspace?s=4dc440bd-7aa7-48d2-9b22-a46f3bbcff11 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:54:19] "GET /activity_workspace?s=4dc440bd-7aa7-48d2-9b22-a46f3bbcff11 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2018 16:54:25] "GET /activity_workspace?s=4dc440bd-7aa7-48d2-9b22-a46f3bbcff11 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/services/session-4dc44-container-1 HTTP/1.1" 200 895
+DEBUG:urllib3.connectionpool:http://localhost:None "DELETE /v1.35/services/lj2voz4ttpnojm1ltx3ktmiqn HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/services/session-4dc44-container-2 HTTP/1.1" 200 896
+DEBUG:urllib3.connectionpool:http://localhost:None "DELETE /v1.35/services/wtaxmpj527ozj0pm4blzyg5xy HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/networks/i1ruq21ijwtaepodvi5tbv2z0 HTTP/1.1" 200 1081
+DEBUG:urllib3.connectionpool:http://localhost:None "DELETE /v1.35/networks/i1ruq21ijwtaepodvi5tbv2z0 HTTP/1.1" 204 0
