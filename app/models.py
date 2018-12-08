@@ -20,6 +20,8 @@ class PortTable(db.Model):
     internal_port = db.Column(db.Integer)
     external_port = db.Column(db.Integer)
     url = db.Column(db.String(300))
+    title = db.Column(db.String(300))
+    show_as_window = db.Column(db.Boolean)
 
 
 class Activity(db.Model):

@@ -7,18 +7,12 @@
 
 <div class=container-area>
     <div class="config-title">Lesson Containers</div>
-    {% for container in containers %}
-    <div class="container-box created" target="_blank" onclick="window.open('http://{{ container.url }}', '_blank');">
-        <div class="container-image-holder">
-            <img class="container-image" src="{{ url_for('static', filename='img/shipping_container.png') }}">
-        </div>
-        <div class="container-detail created">
-            {{ container.friendly_name }}
-        </div>
-        {{ container.external_port }}
-
+    
+    <div class="activity_workspace_btn" target="_blank" onclick="window.open('{{ popout_url }}', '_blank');">
+    Open Activity Workspace
     </div>
-    {% endfor %}
+    
+    
 
 </div>
 

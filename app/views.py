@@ -15,6 +15,7 @@ import atexit
 from flask import jsonify
 import subprocess
 import json
+from time import sleep
 
 
 logfile    = logging.getLogger('file')
@@ -33,7 +34,7 @@ sessionTracker = {}
 networkTracker = {}
 
 def get_full_url(port):
-    return str("10.41.10.201:" + str(port))
+    return str("http://localhost:" + str(port))
 
 def exit_handler():
     print("\n\nShutting down...")
@@ -79,15 +80,11 @@ def main_session():
     logfile.debug("- New Connection -")
 
     session_id = request.args.get('s')
-    container = request.args.get('c')
 
     if session_id == None:
         return render_template('404.html',
                                 message='Specify a session')
 
-    if container == None:
-        return render_template('404.html',
-                                message='No container ID specified')
 
     ses = Session.query.filter_by(unique_identifier=session_id).first()
     
@@ -106,9 +103,41 @@ def main_session():
     return render_template('connection.html',
                         title=activity.title,
                         containers=container_list,
-                        content=activity.content)
+                        content=activity.content,
+                        popout_url="/activity_workspace?s="+str(session_id))
+    
+
+
+
+@app.route('/activity_workspace', methods=['GET'])
+def workspace_session():
+
+    session_id = request.args.get('s')
+
+    if session_id == None:
+        return render_template('404.html',
+                                message='Specify a session')
+
+
+    ses = Session.query.filter_by(unique_identifier=session_id).first()
+    
+    #no session found
+    if ses == None:
+        return render_template('404.html',
+                                message='Session does not exist')
+
+    container_list = PortTable.query.filter_by(session_id=session_id)
+
+    activity = Activity.query.get(ses.activity_id)
+
+    return render_template('activity_workspace.html',
+                        title=activity.title,
+                        windows=container_list)
     
     
+
+
+
 
 
 @app.route('/new', methods=['GET'])
@@ -240,7 +269,9 @@ def new():
 
     logfile.debug("Added session: " + str(new_session.id))
  
-    query = str("/connect?" + "s=" + new_session.unique_identifier + "&c=1")
+    query = str("/connect?" + "s=" + new_session.unique_identifier)
+
+    sleep(5)
 
     return redirect(query)
 
