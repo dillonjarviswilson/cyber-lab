@@ -21,7 +21,7 @@
 
     {% for window in windows %}
         <div class="draggable">
-        <div class="window-title">{{ window.title }}</div>
+        <div class="window-title"><i class="fas fa-{{ window.icon }}"></i> {{ window.title }}</div>
     
         <div class="minimise-btn fas fa-window-minimize"></div>
     

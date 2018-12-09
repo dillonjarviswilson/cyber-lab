@@ -1,40 +1,56 @@
 {% extends "modal_base.html" %} 
 {% block content %}
-
-<form class="embedded-form" id="data_form" method="post" novalidate>
 <div class="center-content">
-    {{ form.hidden_tag() }}
-    <p>
-        {{ form.name.label }}<br>
-        {{ form.name(class="embedded-input") }}
-        {% for error in form.name.errors %}
-        <span class="form_error">{{ error }}</span>
-        {% endfor %}
-    </p>
-    <p>
-        {{ form.image.label }}<br>
-        {{ form.image(class="embedded-input") }}
-        {% for error in form.image.errors %}
-        <span class="form_error">{{ error }}</span>
-        {% endfor %}
-    </p>
-    <p>
-        {{ form.description.label }}<br>
-        {{ form.description(class="embedded-input") }}
-        {% for error in form.description.errors %}
-        <span class="form_error">{{ error }}</span>
-        {% endfor %}
-    </p>
-    <p>
-        {{ form.ports.label }}<br>
-        {{ form.ports(class="embedded-input") }}
-        {% for error in form.ports.errors %}
-        <span class="form_error">{{ error }}</span>
-        {% endfor %}
-    </p>
-    <p>{{ form.submit(class="btn btn-success") }}</p>
+    
+    <div class="error-text">{{ error }}</div>
+
+    <div class="input_group">
+        <div class="input_label">
+            Container Title
+        </div>
+        <div class="input_field">
+            <input id="title_field" class="data_input" type="text">
+        </div>
+    </div>
+  
+
+    <div class="input_group">
+        <div class="input_label">
+            Image URI
+        </div>
+        <div class="input_field">
+                <input id="uri_field" class="data_input" type="text">
+        </div>
+    </div>
+
+
+    <div class="input_group">
+            <div class="input_label">
+                Container Configuration Description
+            </div>
+            <div class="input_field">
+                    <input id="description_field" class="data_input" type="textarea">
+            </div>
+        </div>
+    
+        <div class="port_config_group">
+            <div class="port_number">Port Number<input class="port_input" type="text" name="portNumber"></div>
+            <div class="port_windowed">Windowed<input class="windowed_input" type="text" name="portWindowed"></div>
+            <div class="port_title">Window Title<input class="title_input" type="text" name="portTitle"></div>
+            <div class="port_icon">Window Icon<input class="icon_input" type="text" name="portIcon"></div>
+        </div>
+
+        <button type="button" id="add_new_port" class="btn btn-success" onclick="AddPort()">
+                Add Port (External)
+                <i class="fas fa-plus"></i>
+        </button>
+
+        <button type="button" class="btn btn-warning" onclick=" Submit()">
+                Save  <i class="fas fa-check"></i>
+        </button>
 </div>  
-</form>
+
+
 <div id="wait">
     Please Wait...
 </div>
@@ -47,6 +63,94 @@
                 $("#wait").show();
             });
         });
+
+
+
+        function AddPort(){
+        
+        var inner_html ='<div class="port_config_group">'+
+                        '<div class="port_number">Port Number<input class="port_input" type="text" name="portNumber"></div>'+
+                        '<div class="port_windowed">Windowed<input class="windowed_input" type="text" name="portWindowed"></div>'+
+                        '<div class="port_title">Window Title<input class="title_input" type="text" name="portTitle"></div>'+
+                        '<div class="port_icon">Window Icon<input class="icon_input" type="text" name="portIcon"></div>'+
+                        '<div class=\"delete-button_port btn btn-danger\">Delete <i class=\"far fa-times-circle\"></i></div>'+
+                    
+                        '</div>'
+
+        $("#add_new_port").before(inner_html);
+
+        $(".delete-button_port").confirm({
+            title: 'Confirm Deletion',
+            icon: 'fa fa-warning',
+            content: 'Do you want to remove this port from container?',
+            type: 'red',
+            theme: 'supervan',
+            buttons: {
+                confirm: {
+                    btnClass: 'btn-red',
+                    action: function () {
+                        this.$target.parent().remove();
+                    }
+                },
+                cancel: function () { }
+            }
+        });
+    }
+
+
+    function GetFields(className){
+        var count = 0
+        var string_list = ""
+        o = "." + className
+        console.log(o)
+        $( o ).each(function( index ) {
+            if (count == 0){
+                string_list = string_list + $(this).val()
+            } else {
+                string_list = string_list + "," + $(this).val()
+            }
+            count+=1;
+        });
+        console.log(string_list)
+        return string_list
+    }
+
+
+    function Submit(){
+
+        port_number_list = GetFields("port_input")
+        windowed_list = GetFields("windowed_input")
+        title_list = GetFields("title_input")
+        icon_list = GetFields("icon_input")
+
+        console.log( $('#title_field').val())
+         $.post("/staff/create_container", { container_title: $('#title_field').val(),
+                                            container_description: $('#description_field').val(),
+                                            container_uri: $('#uri_field').val(),
+                                            port_number_list: port_number_list,
+                                            windowed_list:windowed_list,
+                                            title_list:title_list,
+                                            icon_list:icon_list
+                    })
+            .success(function(response_object) {
+                console.log('/staff/container_progress?cont=' + response_object.redirect)
+                window.location = '/staff/container_progress?cont=' + response_object.redirect
+            })
+            .fail(function(xhr) {
+                var data=xhr.responseText;
+                var jsonResponse = JSON.parse(data);
+                var msg = jsonResponse["content"];
+                console.log(msg)
+                $.alert({
+                    title: 'Error',
+                    icon: "fa fa-exclamation-circle",
+                    content: msg
+                });
+
+            }); 
+    }
+
+
 </script>
 
 {% endblock %}

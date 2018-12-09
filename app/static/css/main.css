@@ -20,7 +20,6 @@ div#viewer {
     padding-top: 100px;
 }
 
-
 .ghost {
     opacity: .5;
     background: #C8EBFB;
@@ -51,7 +50,6 @@ div#viewer {
     outline-width: 3px;
 }
 
-
 .box-heading {
     background-color: #00000003;
     padding: 10px;
@@ -60,7 +58,6 @@ div#viewer {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: lightgray;
-
 }
 
 .box-body {
@@ -211,7 +208,6 @@ button.move_button:hover {
     left: -40px;
 }
 
-
 .toolbar {
     background-color: #cbcbcb;
     width: 100vw;
@@ -242,7 +238,6 @@ button.create_box:hover {
     font-size: 40px;
 }
 
-
 p.title-text {
     display: inline;
     outline-width: 3px;
@@ -253,13 +248,11 @@ p {
     line-height: 1.8;
 }
 
-
 .add_file_buttons {
     padding: 20px;
     padding-left: 30px;
     padding-top: 0px;
 }
-
 
 button.file_link.btn {
     font-size: 20px;
@@ -267,9 +260,6 @@ button.file_link.btn {
     margin-left: 8px;
     outline: none;
 }
-
-
-
 
 .activity_button {
     border-style: solid;
@@ -325,7 +315,6 @@ button.file_link.btn {
     margin-bottom: 20px;
 }
 
-
 .num_students {
     text-align: center;
     font-weight: 500;
@@ -337,7 +326,6 @@ button.file_link.btn {
     font-weight: 500;
     position: relative;
 }
-
 
 form.activity_controller_form {
     border-style: solid;
@@ -356,7 +344,6 @@ form.activity_controller_form {
     padding: 30px;
 }
 
-
 label.form-label {
     display: inline;
 }
@@ -365,7 +352,6 @@ label.form-label {
     pointer-events: none;
     background: #f7f7f7;
 }
-
 
 span.jconfirm-title {
     line-height: 120%;
@@ -381,7 +367,6 @@ span.jconfirm-title {
     margin-bottom: 0px;
     border-bottom: 1px white solid;
 }
-
 
 button.btn.x-wide {
     display: block;
@@ -404,8 +389,6 @@ button.btn.wide {
     margin-bottom: 50px;
 }
 
-
-
 iframe.add-container-frame {
     border: 0px;
     height: 50vh;
@@ -413,17 +396,13 @@ iframe.add-container-frame {
     width: 100%;
 }
 
-
-
 .embedded-form {
     padding: 18px;
 }
 
-
 select#containers-hidden {
     display: none;
 }
-
 
 .container-box {
     width: 35vw;
@@ -431,7 +410,6 @@ select#containers-hidden {
     max-width: 200px;
     max-height: 220px;
 }
-
 
 img.container-image {
     height: calc(100% - 60px);
@@ -480,7 +458,6 @@ i.fas.fa-plus.xl-icon {
     padding-top: 40%;
 }
 
-
 .container-box.add-new-button {
     background-color: #ffffff00;
     border: solid #d7d7d7 3px;
@@ -489,8 +466,6 @@ i.fas.fa-plus.xl-icon {
     cursor: pointer;
     overflow: hidden;
 }
-
-
 
 .builder {
     margin: auto;
@@ -501,7 +476,6 @@ i.fas.fa-plus.xl-icon {
 .container-box.add-new-button:hover {
     background-color: #f9f9f9;
 }
-
 
 .delete-button {
     position: relative;
@@ -522,7 +496,6 @@ i.fas.fa-plus.xl-icon {
     color: #e00000;
 }
 
-
 .jconfirm.jconfirm-supervan .jconfirm-box div.jconfirm-closeIcon {
     font-size: 60px !important;
     top: 20px;
@@ -530,7 +503,6 @@ i.fas.fa-plus.xl-icon {
     position: relative;
     /* left: -20px; */
 }
-
 
 .container-area {
     margin-top: 50px;
@@ -557,14 +529,12 @@ i.fas.fa-plus.xl-icon {
     margin-bottom: 50px;
 }
 
-
 .config-title {
     font-size: 28;
     padding-left: 5px;
     margin-top: -25px;
     margin-bottom: 35px;
 }
-
 
 .content-title {
     font-size: 28;
@@ -574,30 +544,25 @@ i.fas.fa-plus.xl-icon {
     border-bottom: solid 2px #9d9d9d45;
 }
 
-
 .smaller-viewer {
     padding-left: 30px;
     padding-right: 30px;
 }
-
 
 .padded-modal {
     padding: 40px;
 }
 
 .center-content {
-    text-align: center;
+    /* text-align: center; */
 }
-
 
 textarea#description {
     border: solid 1px #dadada;
 }
 
 .embedded-input {
-    width: 60%;
-    margin-bottom: 10px;
-    margin-top: -10px;
+    width: 100%;
 }
 
 div#loading {
@@ -620,4 +585,105 @@ img.loading_image {
 img.container-image_small {
     width: 50px;
     height: 50px;
+}
+
+.center-content {
+    width: 95vw;
+    padding: 2.5vw;
+}
+
+.input_group {
+    display: block;
+    margin-bottom: 26px;
+}
+
+.input_label {
+    display: inline-block;
+    width: 20vw;
+    position: relative;
+    top: -3px;
+}
+
+.input_field {
+    display: inline-block;
+    width: 65vw;
+}
+
+span.form_error {
+    color: #fd1f1f;
+    font-weight: 600;
+    margin-top: -14px;
+    position: absolute;
+}
+
+.port_config_group {
+    display: inline-block;
+    width: 300px;
+    border: solid #efefef 1px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 14px;
+    margin-right: 10px;
+    margin-bottom: 17PX;
+}
+
+.port_number {
+    width: 150px;
+    display: inline-block;
+}
+
+.port_windowed {
+    width: 115px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.port_title {
+    width: 270px;
+    display: inline-block;
+}
+
+.port_icon {
+    width: 150px;
+    display: inline-block;
+}
+
+input.port_input {
+    width: 100%;
+    display: block;
+}
+input.windowed_input {
+    width: 100%;
+    display: block;
+}
+input.title_input {
+    width: 100%;
+    display: block;
+}
+input.icon_input {
+    width: 100%;
+    display: block;
+}
+
+.delete-button_port.btn.btn-danger {
+    height: 30px;
+    margin-top: -2px;
+    margin-left: 8px;
+    width: 111px;
+    line-height: 19px;
+}
+
+.delete-button_port.btn.btn-danger {
+    height: 30px;
+    margin-top: -2px;
+    margin-left: 8px;
+    width: 111px;
+    line-height: 19px;
+}
+
+button#add_new_port {
+    display: block;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-left: auto;
 }

@@ -22,6 +22,7 @@ class PortTable(db.Model):
     url = db.Column(db.String(300))
     title = db.Column(db.String(300))
     show_as_window = db.Column(db.Boolean)
+    icon = db.Column(db.String(300))
 
 
 class Activity(db.Model):
@@ -48,5 +49,9 @@ class Container(db.Model):
     image = db.Column(db.String(500))
     expose_ports = db.Column(db.String(500))
     is_ready = db.Column(db.Boolean)
+    port_titles = db.Column(db.String(5000))
+    port_icons = db.Column(db.String(5000))
+    port_window = db.Column(db.String(5000))
+
 
 

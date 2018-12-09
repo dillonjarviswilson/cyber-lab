@@ -128,11 +128,17 @@ def workspace_session():
 
     container_list = PortTable.query.filter_by(session_id=session_id)
 
+    final_list = []
+    for container in container_list:
+        if container.show_as_window:
+            final_list.append(container)
+
+
     activity = Activity.query.get(ses.activity_id)
 
     return render_template('activity_workspace.html',
                         title=activity.title,
-                        windows=container_list)
+                        windows=final_list)
     
     
 
@@ -181,12 +187,26 @@ def new():
         print("Container: {} \tports: {}".format(container.name, str(container.expose_ports)))
 
         ports = container.expose_ports.split(",")
+        titles =container.port_titles.split(",")
+        windowed = container.port_window.split(",")
+        icons =container.port_icons.split(",")
+
         number_of_ports = len(ports)
         port_dictionary = {}
         int_port_list = []
 
 
-        for internal_port in ports:
+        for ref in range(len(ports)):
+
+            internal_port = ports[ref]
+            title_port = titles[ref]
+            window_port = windowed[ref]
+            icon_port = icons[ref]
+
+            if window_port == "T":
+                window_port = True
+            else:
+                window_port = False
 
             ext_port = get_avail_port()
             if ext_port == False: return render_template('404.html', message="Can not run, max capacity reached")
@@ -202,7 +222,10 @@ def new():
                                 external_port=ext_port,
                                 internal_port=internal_port,
                                 container_id="",
-                                url=get_full_url(ext_port))
+                                url=get_full_url(ext_port),
+                                title=title_port,
+                                show_as_window=window_port,
+                                icon=icon_port)
 
             db.session.add(new_entry)
             db.session.commit()
@@ -569,34 +592,95 @@ def staff_submit_configuration():
                             message="Could not find activity.")
 
 
+@app.route('/staff/container_designer', methods=['GET'])
+def staff_container_designer():
+
+    return render_template('create_container.html', 
+                            title='Create New')
+
+
 
 @app.route('/staff/create_container', methods=['GET', 'POST'])
 def staff_create_container():
 
-    form = NewContainerForm()
-    if form.validate_on_submit():
+    if request.method == 'POST':
 
-        image_name = form.image.data
-        print("getting image {}".format(image_name))
+        container_title = request.form['container_title']
+        container_description = request.form['container_description']
+        container_uri = request.form['container_uri']
+        port_list = request.form['port_number_list']
+        windowed_list = request.form['windowed_list']
+        title_list = request.form['title_list']
+        icon_list = request.form['icon_list']
 
-        dateNow = datetime.now()
+        if (str(container_title) == ""):
+            return jsonify(content="Invalid container title"), 400
+        if (str(container_description) == ""):
+            return jsonify(content="Invalid description"), 400
+        if (str(container_uri) == ""):
+            return jsonify(content="Invalid container URI"), 400
+        
+
+
+        p_list = port_list.split(",")
+        p_list = filter(None, p_list)
+        if (str(p_list) == ""):
+            return jsonify(content="Invalid port list"), 400
+
+        w_list = windowed_list.split(",")
+        w_list = filter(None, w_list)
+        if (str(w_list) == ""):
+            return jsonify(content="Invalid windowed list"), 400
+
+        t_list = title_list.split(",")
+        t_list = filter(None, t_list)        
+        if (str(t_list) ==""):
+            return jsonify(content="Invalid port title list"), 400
+
+        i_list = icon_list.split(",")
+        i_list = filter(None, i_list)
+        if (str(i_list) == ""):
+            return jsonify(content="Invalid icon list"), 400
+
+
+
+        v = len(p_list)
+        if v == 0:
+            return jsonify(content="Port configuration info is required"), 400
+        if v != len(w_list):
+            return jsonify(content="Missing port configuration info"), 400
+        if v != len(t_list):
+            return jsonify(content="Missing port configuration info"), 400
+        if v != len(i_list):
+            return jsonify(content="Missing port configuration info"), 400
+
+        for item in p_list:
+            if item.isdigit() != True:
+                return jsonify(content="Port number is not integer"), 400
+        
+        for item in w_list:
+            if item != "T" and item != "F":
+                return jsonify(content="Windowed value is not T or F"), 400
 
         new_container = models.Container(
-                                name = form.name.data,
-                                description = form.description.data,
-                                image = form.image.data,
-                                expose_ports = form.ports.data,
-                                )
+                                    name = container_title,
+                                    description = container_description,
+                                    image = container_uri,
+                                    expose_ports = port_list,
+                                    port_titles = title_list,
+                                    port_icons = icon_list,
+                                    port_window = windowed_list
+                                    )
 
         #add and commit the db changes
         db.session.add(new_container)
         db.session.commit()
 
-        return redirect('/staff/container_progress?cont=' + str(new_container.id))
+        return jsonify(redirect=new_container.id), 200
 
     return render_template('create_container.html', 
-                            title='Create New', 
-                            form=form)
+                            title='Create New')
+
 
 
 
@@ -714,6 +798,8 @@ def image_local(image_name):
     for i in list_images:
         tags = i.tags
         for t in tags:
+            if image_name == t:
+                return True
             t_segmented = t.split(':')
             full_base = ""
             for count in range(0, len(t_segmented)-1):
@@ -734,3 +820,4 @@ class ContainerObj:
     def __init__(self, c):
         self.container = c
    
+
