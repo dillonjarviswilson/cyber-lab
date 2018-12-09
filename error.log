@@ -32950,3 +32950,33 @@ DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/services/session-
 DEBUG:urllib3.connectionpool:http://localhost:None "DELETE /v1.35/services/mn4krkxihcxi89ceyan55qy1h HTTP/1.1" 200 0
 DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/networks/u84wolhbix3u3m2fdycmvxz7t HTTP/1.1" 200 1085
 DEBUG:urllib3.connectionpool:http://localhost:None "DELETE /v1.35/networks/u84wolhbix3u3m2fdycmvxz7t HTTP/1.1" 204 0
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Couldn't find auth-related section ; attempting to interpretas auth-only file
+DEBUG:docker.auth:Auth data for auths is absent. Client might be using a credentials store instead.
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Couldn't find auth-related section ; attempting to interpretas auth-only file
+DEBUG:docker.auth:Auth data for auths is absent. Client might be using a credentials store instead.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:file:Debug FILE
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Couldn't find auth-related section ; attempting to interpretas auth-only file
+DEBUG:docker.auth:Auth data for auths is absent. Client might be using a credentials store instead.
+DEBUG:docker.utils.config:Trying paths: ['/Users/dillonwilson/.docker/config.json', '/Users/dillonwilson/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/dillonwilson/.docker/config.json
+DEBUG:docker.auth:Couldn't find auth-related section ; attempting to interpretas auth-only file
+DEBUG:docker.auth:Auth data for auths is absent. Client might be using a credentials store instead.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-981-812
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2018 17:31:18] "GET /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2018 17:31:19] "GET /admin/container/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2018 17:31:19] "GET /admin/activity/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2018 17:31:20] "GET /admin/porttable/ HTTP/1.1" 200 -
+DEBUG:file:- New Connection -
+INFO:werkzeug:127.0.0.1 - - [09/Dec/2018 17:31:28] "GET /connect?s=54f9b2f4-1081-48db-b6e5-b35610fccd13 HTTP/1.1" 200 -
