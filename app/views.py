@@ -34,7 +34,7 @@ sessionTracker = {}
 networkTracker = {}
 
 def get_full_url(port):
-    return str("http://localhost:" + str(port))
+    return str("http://10.41.9.217:" + str(port))
 
 def exit_handler():
     print("\n\nShutting down...")
@@ -294,7 +294,7 @@ def new():
  
     query = str("/connect?" + "s=" + new_session.unique_identifier)
 
-    sleep(5)
+    sleep(10)
 
     return redirect(query)
 
